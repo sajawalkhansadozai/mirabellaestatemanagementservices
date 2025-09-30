@@ -1,0 +1,1 @@
+{"firestore":{"database":"(default)","location":"nam5","rules":"firestore.rules","indexes":"firestore.indexes.json"},"flutter":{"platforms":{"dart":{"lib/firebase_options.dart":{"projectId":"mirabellaestatemanagement","configurations":{"web":"1:740039471897:web:39d5dff4889b319ac80b88"}}}}}}
