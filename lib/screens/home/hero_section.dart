@@ -1,6 +1,6 @@
 // ===============================
 // File: lib/screens/home/hero_section.dart
-// Hero: headline, CTAs, KPIs, hero image with ROI card (responsive/overflow-proof)
+// Hero: Commercial Plots Ad - Gulshan-e-Sehat E-18
 // ===============================
 import 'package:flutter/material.dart';
 import '../../constants/tokens.dart';
@@ -12,10 +12,10 @@ class HeroSection extends StatelessWidget {
     this.onSecondaryPressed,
   });
 
-  /// Get Free Consultation
+  /// Book Your Plot Now
   final VoidCallback? onPrimaryPressed;
 
-  /// Explore Services
+  /// Payment Plans
   final VoidCallback? onSecondaryPressed;
 
   @override
@@ -73,7 +73,7 @@ class HeroSection extends StatelessWidget {
                         // Chip
                         Container(
                           decoration: BoxDecoration(
-                            color: const Color(0xFFDBEAFE), // blue-100
+                            color: const Color(0xFFDCFCE7), // green-100
                             borderRadius: BorderRadius.circular(999),
                           ),
                           padding: const EdgeInsets.symmetric(
@@ -84,16 +84,16 @@ class HeroSection extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: const [
                               Icon(
-                                Icons.workspace_premium_rounded,
+                                Icons.new_releases_rounded,
                                 size: 16,
-                                color: AppColors.blue800,
+                                color: Color(0xFF166534), // green-800
                               ),
                               SizedBox(width: 8),
                               Text(
-                                '#1 Estate Management in Islamabad',
+                                '🔥 NEW LAUNCH - Limited Plots Available',
                                 style: TextStyle(
-                                  color: AppColors.blue800,
-                                  fontWeight: FontWeight.w600,
+                                  color: Color(0xFF166534),
+                                  fontWeight: FontWeight.w700,
                                   fontSize: 12,
                                 ),
                               ),
@@ -112,12 +112,10 @@ class HeroSection extends StatelessWidget {
                               color: AppColors.gray900,
                             ),
                             children: const [
+                              TextSpan(text: 'Commercial Plots Launched\n'),
                               TextSpan(
-                                text: 'Professional Property Management\n',
-                              ),
-                              TextSpan(
-                                text: 'You Can Trust',
-                                style: TextStyle(color: AppColors.blue800),
+                                text: 'Gulshan-e-Sehat E-18',
+                                style: TextStyle(color: AppColors.blue600),
                               ),
                             ],
                           ),
@@ -127,18 +125,80 @@ class HeroSection extends StatelessWidget {
                         ),
                         const SizedBox(height: 12),
 
-                        // Subhead
-                        Text(
-                          'Comprehensive estate management services tailored to protect and maximize your real estate investments. '
-                          'From tenant screening to maintenance, we handle everything so you don’t have to.',
-                          style: TextStyle(
-                            fontSize: bodySize,
-                            height: 1.5,
-                            color: const Color(0xFF4B5563), // gray-600
+                        // Subhead - Info Box
+                        Container(
+                          padding: const EdgeInsets.all(16),
+                          decoration: BoxDecoration(
+                            color: const Color(0xFFFEF3C7), // amber-100
+                            borderRadius: BorderRadius.circular(12),
+                            border: Border.all(
+                              color: const Color(0xFFF59E0B), // amber-500
+                              width: 2,
+                            ),
                           ),
-                          textScaler: MediaQuery.textScalerOf(
-                            context,
-                          ).clamp(maxScaleFactor: 1.2),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  const Icon(
+                                    Icons.location_on,
+                                    color: Color(0xFF92400E),
+                                    size: 20,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Expanded(
+                                    child: Text(
+                                      'Prime Location: Gulshan-e-Sehat E-18, Islamabad',
+                                      style: TextStyle(
+                                        fontSize: bodySize - 2,
+                                        fontWeight: FontWeight.w700,
+                                        color: const Color(0xFF92400E),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: 12),
+                              Row(
+                                children: [
+                                  const Icon(
+                                    Icons.square_foot,
+                                    color: Color(0xFF92400E),
+                                    size: 20,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(
+                                    'Plot Size: 40\' × 70\' (2,800 sq ft)',
+                                    style: TextStyle(
+                                      fontSize: bodySize - 2,
+                                      fontWeight: FontWeight.w600,
+                                      color: const Color(0xFF92400E),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: 8),
+                              Row(
+                                children: [
+                                  const Icon(
+                                    Icons.payments_rounded,
+                                    color: Color(0xFF92400E),
+                                    size: 20,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(
+                                    'Price: PKR 45,000,000',
+                                    style: TextStyle(
+                                      fontSize: bodySize + 2,
+                                      fontWeight: FontWeight.w800,
+                                      color: const Color(0xFF92400E),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ),
                         const SizedBox(height: 18),
 
@@ -150,14 +210,16 @@ class HeroSection extends StatelessWidget {
                             ConstrainedBox(
                               constraints: const BoxConstraints(minWidth: 180),
                               child: ElevatedButton.icon(
-                                icon: const Icon(Icons.arrow_forward_rounded),
-                                label: const Text('Get Free Consultation'),
+                                icon: const Icon(Icons.call_rounded),
+                                label: const Text('Book Your Plot Now'),
                                 style: ElevatedButton.styleFrom(
                                   padding: const EdgeInsets.symmetric(
                                     horizontal: 18,
                                     vertical: 14,
                                   ),
-                                  backgroundColor: AppColors.blue600,
+                                  backgroundColor: const Color(
+                                    0xFF059669,
+                                  ), // green-600
                                   foregroundColor: Colors.white,
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(12),
@@ -172,7 +234,7 @@ class HeroSection extends StatelessWidget {
                                       ).showSnackBar(
                                         const SnackBar(
                                           content: Text(
-                                            'We’ll contact you within 24 hours.',
+                                            'Our team will contact you shortly!',
                                           ),
                                         ),
                                       );
@@ -182,18 +244,18 @@ class HeroSection extends StatelessWidget {
                             ConstrainedBox(
                               constraints: const BoxConstraints(minWidth: 170),
                               child: OutlinedButton.icon(
-                                icon: const Icon(Icons.chevron_right_rounded),
-                                label: const Text('Explore Services'),
+                                icon: const Icon(Icons.info_outline_rounded),
+                                label: const Text('Payment Plans'),
                                 style: OutlinedButton.styleFrom(
                                   padding: const EdgeInsets.symmetric(
                                     horizontal: 18,
                                     vertical: 14,
                                   ),
                                   side: const BorderSide(
-                                    color: AppColors.blue600,
+                                    color: Color(0xFF059669),
                                     width: 2,
                                   ),
-                                  foregroundColor: AppColors.blue600,
+                                  foregroundColor: const Color(0xFF059669),
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(12),
                                   ),
@@ -205,7 +267,7 @@ class HeroSection extends StatelessWidget {
                                         context,
                                       ).showSnackBar(
                                         const SnackBar(
-                                          content: Text('Navigate to Services'),
+                                          content: Text('View Payment Plans'),
                                         ),
                                       );
                                     },
@@ -216,8 +278,8 @@ class HeroSection extends StatelessWidget {
 
                         const SizedBox(height: 24),
 
-                        // KPIs (responsive: row on wide, wrap on narrow)
-                        const _KpisRow(),
+                        // Payment Plans Section
+                        const _PaymentPlansRow(),
                       ],
                     ),
                   ),
@@ -250,28 +312,32 @@ class HeroSection extends StatelessWidget {
                               padding: const EdgeInsets.all(10.0),
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(28),
-                                child: Image.network(
-                                  'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200',
+                                child: Image.asset(
+                                  'assets/commercial_plot.png', // Your asset image
                                   fit: BoxFit.cover,
                                   height: heroImgHeight,
-                                  loadingBuilder: (ctx, child, evt) {
-                                    if (evt == null) return child;
-                                    return Container(
-                                      height: heroImgHeight,
-                                      color: AppColors.slate100,
-                                      child: const Center(
-                                        child: CircularProgressIndicator(),
-                                      ),
-                                    );
-                                  },
                                   errorBuilder: (ctx, err, st) => Container(
                                     height: heroImgHeight,
                                     color: AppColors.slate100,
                                     alignment: Alignment.center,
-                                    child: const Icon(
-                                      Icons.image_not_supported_outlined,
-                                      color: AppColors.gray900,
-                                      size: 32,
+                                    child: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: const [
+                                        Icon(
+                                          Icons.villa_rounded,
+                                          color: AppColors.blue600,
+                                          size: 48,
+                                        ),
+                                        SizedBox(height: 8),
+                                        Text(
+                                          'Commercial Plot',
+                                          style: TextStyle(
+                                            color: AppColors.gray900,
+                                            fontWeight: FontWeight.w600,
+                                          ),
+                                        ),
+                                      ],
                                     ),
                                   ),
                                 ),
@@ -289,7 +355,12 @@ class HeroSection extends StatelessWidget {
                               borderRadius: BorderRadius.circular(16),
                               child: Container(
                                 decoration: BoxDecoration(
-                                  color: Colors.white.withOpacity(0.95),
+                                  gradient: const LinearGradient(
+                                    colors: [
+                                      Color(0xFF059669), // green-600
+                                      Color(0xFF10B981), // green-500
+                                    ],
+                                  ),
                                   borderRadius: BorderRadius.circular(16),
                                 ),
                                 padding: const EdgeInsets.symmetric(
@@ -301,12 +372,13 @@ class HeroSection extends StatelessWidget {
                                       MainAxisAlignment.spaceBetween,
                                   children: const [
                                     _RoiText(
-                                      title: 'Average ROI Increase',
-                                      value: '+25%',
+                                      title: 'Flexible Payment Plans',
+                                      value: 'Available',
+                                      isWhiteText: true,
                                     ),
                                     Icon(
-                                      Icons.trending_up_rounded,
-                                      color: Colors.green,
+                                      Icons.payment_rounded,
+                                      color: Colors.white,
                                       size: 44,
                                     ),
                                   ],
@@ -324,6 +396,123 @@ class HeroSection extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}
+
+class _PaymentPlansRow extends StatelessWidget {
+  const _PaymentPlansRow();
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: const Color(0xFFE5E7EB), width: 2),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.05),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            '💳 Payment Plans Available:',
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w700,
+              color: AppColors.gray900,
+            ),
+          ),
+          const SizedBox(height: 12),
+          _PaymentPlanItem(
+            icon: Icons.looks_one_rounded,
+            title: 'Plan 1',
+            description: '50% advance, 50% within one month',
+          ),
+          const Divider(height: 20),
+          _PaymentPlanItem(
+            icon: Icons.looks_two_rounded,
+            title: 'Plan 2',
+            description: '6 installments, 2 quarterly payments',
+          ),
+          const Divider(height: 20),
+          _PaymentPlanItem(
+            icon: Icons.looks_3_rounded,
+            title: 'Plan 3',
+            description: '50% booking, 50% in 4 quarterly (PKR 5M each)',
+          ),
+          const SizedBox(height: 8),
+          const Text(
+            '* Terms and conditions apply',
+            style: TextStyle(
+              fontSize: 11,
+              fontStyle: FontStyle.italic,
+              color: Color(0xFF6B7280),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _PaymentPlanItem extends StatelessWidget {
+  final IconData icon;
+  final String title;
+  final String description;
+
+  const _PaymentPlanItem({
+    required this.icon,
+    required this.title,
+    required this.description,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Container(
+          padding: const EdgeInsets.all(8),
+          decoration: BoxDecoration(
+            color: const Color(0xFFDBEAFE),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Icon(icon, color: AppColors.blue600, size: 20),
+        ),
+        const SizedBox(width: 12),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                title,
+                style: const TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.w700,
+                  color: AppColors.gray900,
+                ),
+              ),
+              const SizedBox(height: 4),
+              Text(
+                description,
+                style: const TextStyle(
+                  fontSize: 13,
+                  color: Color(0xFF6B7280),
+                  height: 1.4,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }
@@ -405,7 +594,12 @@ class _KpiItem extends StatelessWidget {
 class _RoiText extends StatelessWidget {
   final String title;
   final String value;
-  const _RoiText({required this.title, required this.value});
+  final bool isWhiteText;
+  const _RoiText({
+    required this.title,
+    required this.value,
+    this.isWhiteText = false,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -417,9 +611,12 @@ class _RoiText extends StatelessWidget {
           textScaler: MediaQuery.textScalerOf(
             context,
           ).clamp(maxScaleFactor: 1.2),
-          style: const TextStyle(
-            color: Color(0xFF6B7280), // gray-500
+          style: TextStyle(
+            color: isWhiteText
+                ? Colors.white.withOpacity(0.9)
+                : const Color(0xFF6B7280),
             fontSize: 12,
+            fontWeight: FontWeight.w500,
           ),
         ),
         const SizedBox(height: 4),
@@ -428,8 +625,8 @@ class _RoiText extends StatelessWidget {
           textScaler: MediaQuery.textScalerOf(
             context,
           ).clamp(maxScaleFactor: 1.2),
-          style: const TextStyle(
-            color: AppColors.blue600,
+          style: TextStyle(
+            color: isWhiteText ? Colors.white : AppColors.blue600,
             fontSize: 22,
             fontWeight: FontWeight.w800,
           ),

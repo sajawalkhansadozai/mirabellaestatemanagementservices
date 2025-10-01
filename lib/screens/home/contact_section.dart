@@ -69,13 +69,6 @@ class _ContactSectionState extends State<ContactSection> {
 
   void _showResultOverlay(bool success, String message) {
     final overlay = Overlay.of(context);
-    if (overlay == null) {
-      // Fallback if no Overlay in the tree
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text(message)));
-      return;
-    }
     final entry = OverlayEntry(
       builder: (context) => _ResultOverlay(success: success, message: message),
     );

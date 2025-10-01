@@ -5,7 +5,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
-
 import 'constants/tokens.dart';
 import 'screens/home/home_screen.dart';
 import 'firebase_options.dart'; // FlutterFire CLI se generate hoga

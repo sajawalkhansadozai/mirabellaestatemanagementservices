@@ -32,7 +32,6 @@ class ServicesSection extends StatelessWidget {
     ];
 
     // Responsive header sizes
-    final headerSize = w >= 1100 ? 34.0 : (w >= 700 ? 30.0 : 26.0);
     final subSize = w >= 700 ? 18.0 : 16.0;
 
     return MediaQuery(
