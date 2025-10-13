@@ -619,7 +619,6 @@ class _PeopleTabState extends State<_PeopleTab> {
     try {
       final snapshot = await FirebaseFirestore.instance
           .collection(widget.collection)
-          .limit(500)
           .get();
 
       setState(() {
