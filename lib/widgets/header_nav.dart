@@ -241,7 +241,7 @@ class _Logo extends StatelessWidget {
                 child: const Padding(
                   padding: EdgeInsets.symmetric(vertical: 8.0),
                   child: Text(
-                    'Mirabella Estate Management Services',
+                    'MEMS',
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(

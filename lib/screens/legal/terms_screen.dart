@@ -40,7 +40,7 @@ class TermsOfServicePage extends StatelessWidget {
                         ),
                         const SizedBox(height: 8),
                         const Text(
-                          'Please read these terms carefully before using Mirabella Estate Management Services.',
+                          'Please read these terms carefully before using MEMS.',
                           style: TextStyle(color: Colors.white70, fontSize: 16),
                         ),
                         const SizedBox(height: 8),
@@ -74,7 +74,7 @@ class TermsOfServicePage extends StatelessWidget {
                         Section(
                           title: 'Who We Are',
                           body:
-                              '“Mirabella”, “we”, “us”, and “our” refer to Mirabella Estate Management Services, a property management company serving Islamabad and nearby areas.',
+                              '"Mirabella", "we", "us", and "our" refer to MEMS, a property management company serving Islamabad and nearby areas.',
                         ),
                         Section(
                           title: 'Eligibility',

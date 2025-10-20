@@ -7917,7 +7917,7 @@ p.a(a)
 s=J.a4(a)
 r=s.h(a,0)
 r.toString
-r=B.Pd[A.ch(r)]
+r=B.Pc[A.ch(r)]
 q=s.h(a,1)
 q.toString
 q=A.aF9(p.a(q))
@@ -21434,7 +21434,7 @@ r.toString
 A.f2(r)
 q=a.h(0,"swipeEdge")
 q.toString
-return new A.QF(s,r,B.OQ[A.ch(q)])},
+return new A.QF(s,r,B.OP[A.ch(q)])},
 Fj:function Fj(a,b){this.a=a
 this.b=b},
 QF:function QF(a,b,c){this.a=a
@@ -23730,7 +23730,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 aUh(a,b){var s=A.a1(b).i("a0<1,dZ>")
 s=A.Y(new A.a0(b,new A.a8l(),s),s.i("an.E"))
-return A.aTD(!0,s,a,B.Pw,!0,B.Ir,null)},
+return A.aTD(!0,s,a,B.Pv,!0,B.Ir,null)},
 aUf(a){a.bv()
 a.bb(A.aOz())},
 Bm(a){var s=a.a,r=s instanceof A.qj?s:null
@@ -24368,7 +24368,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 OW(a,b){var s
-if(a.j(0,b))return new A.Mk(B.Px)
+if(a.j(0,b))return new A.Mk(B.Pw)
 s=A.b([],t.fJ)
 A.c4()
 a.lP(new A.acd(b,A.aQ(t.u),s))
@@ -29312,7 +29312,7 @@ $S:2}
 A.aBB.prototype={
 $1(a){var s=A.dW().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/d3d45dcf251823c1769909cd43698d126db38deb/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/d2913632a4578ee4d0b8b1c4a69888c8a0672c4b/":s)+a},
 $S:47}
 A.a5x.prototype={
 eF(a,b){var s,r=this.a
@@ -31158,7 +31158,7 @@ gu(a){var s=this,r=s.b,q=r!=null?A.bN(r):null
 return A.Q(s.a,q,s.c,s.d,s.e,s.x,s.f,s.r,s.w,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.a5N.prototype={
 KL(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Pu
+if(a<0||b<0)return B.Pt
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -31418,7 +31418,7 @@ break
 default:s=null}return s}}
 A.a9V.prototype={
 gqf(){var s=this.b,r=s==null?null:s.canvasKitVariant
-return A.aUq(B.P2,r==null?"auto":r)},
+return A.aUq(B.P1,r==null?"auto":r)},
 gV1(){var s=this.b
 s=s==null?null:s.canvasKitForceCpuOnly
 return s==null?!1:s},
@@ -32755,7 +32755,7 @@ if(e.b){q=t.f
 d=q.a(J.bF(q.a(B.cf.h9(a2)),"data"))
 c=A.as(J.bF(d,"message"))
 if(c!=null&&c.length!==0){b=A.aEO(d,"assertiveness")
-e.a.Ux(c,B.Oc[b==null?0:b])}}a.f1(a3,B.cf.c7(!0))
+e.a.Ux(c,B.Ob[b==null?0:b])}}a.f1(a3,B.cf.c7(!0))
 return
 case"flutter/navigation":q=a.gdk().b
 p=t.e8
@@ -35097,7 +35097,7 @@ if(m.f!==B.q1){m.f=B.q1
 m.QP()}}return m.d.a.a0a(a)},
 QP(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-a07(a){if(B.b.q(B.Pg,a))return this.f===B.ib
+a07(a){if(B.b.q(B.Pf,a))return this.f===B.ib
 return!1}}
 A.a8W.prototype={
 $0(){return new A.eP(Date.now(),0,!1)},
@@ -36563,7 +36563,7 @@ m=A.dk(r.h(s,"fontWeightIndex"))
 l=m!=null?A.b2n(m):"normal"
 q=A.aGi(r.h(s,"fontSize"))
 if(q==null)q=null
-p=new A.ao9(new A.a8h(q,l,A.as(r.h(s,"fontFamily")),B.O7[o],B.lw[n]))
+p=new A.ao9(new A.a8h(q,l,A.as(r.h(s,"fontFamily")),B.O6[o],B.lw[n]))
 break
 case"TextInput.clearClient":p=B.FF
 break
@@ -37218,7 +37218,7 @@ if(B.b.io(B.qF,s)!==-1)return r.c}else{s=B.c.a5(p,n,m)
 o.b=s
 o.a=m+1
 if(B.b.io(B.qF,s)!==-1)return r.d
-if(B.b.io(B.Oh,o.b)!==-1)return r.e}throw A.f(A.qD(q+p))},
+if(B.b.io(B.Og,o.b)!==-1)return r.e}throw A.f(A.qD(q+p))},
 $S:85}
 A.abH.prototype={
 $1(a){var s,r,q="Invalid HTTP date ",p=this.b,o=this.a,n=o.a,m=B.c.kq(p,a,n)
@@ -40903,7 +40903,7 @@ if(o>0)return s
 return null}}
 A.aqF.prototype={
 G(a,b){this.O7(0,b,0,b.length,!1)},
-bC(a){this.O7(0,B.Pm,0,0,!0)}}
+bC(a){this.O7(0,B.Pl,0,0,!0)}}
 A.aB7.prototype={
 O7(a,b,c,d,e){var s=this.b.anb(b,c,d,e)
 if(s!=null)this.a.o3(s,0,s.length,e)}}
@@ -44678,7 +44678,7 @@ r.a(s)
 q=J.a4(s)
 p=q.h(s,0)
 p.toString
-p=B.Pf[A.ch(p)]
+p=B.Pe[A.ch(p)]
 o=q.h(s,1)
 o.toString
 A.aJ(o)
@@ -45684,7 +45684,7 @@ t.W.a(s)
 r=J.a4(s)
 q=r.h(s,0)
 q.toString
-q=B.PZ[A.ch(q)]
+q=B.PX[A.ch(q)]
 s=r.h(s,1)
 s.toString
 return new A.Qj(q,t.Hb.a(s))
@@ -47509,7 +47509,7 @@ r=A.w3(B.SG,B.j,r==null?1:r)
 r.toString
 p=o.ad(0,p.gt(p))
 if(p==null)p=1
-p=A.aL1(q,B.k,new A.vR(p,B.ON,new A.bG(B.DB,this.e)),s,1,B.XG)
+p=A.aL1(q,B.k,new A.vR(p,B.OM,new A.bG(B.DB,this.e)),s,1,B.XG)
 return new A.tb(A.m9(r.a,r.b,0),q,!0,q,p,q)}}
 A.Kx.prototype={
 l(){var s=this,r=s.bj$
@@ -51030,7 +51030,7 @@ A.xQ.prototype={
 J(){return"_CornerId."+this.b}}
 A.mV.prototype={}
 A.vT.prototype={
-l_(){var s,r,q,p=this,o=A.b0M(B.P7,new A.afN(p,p.b.gaQ().a1(0,p.a.gaQ()))),n=p.a
+l_(){var s,r,q,p=this,o=A.b0M(B.P6,new A.afN(p,p.b.gaQ().a1(0,p.a.gaQ()))),n=p.a
 n.toString
 s=o.a
 r=p.pw(n,s)
@@ -54934,7 +54934,7 @@ A.axO.prototype={
 $2(a,b){return this.a.ce(a,b)},
 $S:12}
 A.VP.prototype={
-gLH(){return B.Ou},
+gLH(){return B.Ot},
 V5(a){var s,r=this
 switch(a.a){case 0:s=r.d.at
 break
@@ -55655,7 +55655,7 @@ return s.b}}
 A.k4.prototype={
 J(){return"_ListTileSlot."+this.b}}
 A.XI.prototype={
-gLH(){return B.OZ},
+gLH(){return B.OY},
 V5(a){var s,r=this
 switch(a.a){case 0:s=r.d
 break
@@ -55980,7 +55980,7 @@ r.e=s.a.a
 r.f=s.d},
 $S:0}
 A.Pn.prototype={
-E(a){return A.aL1(new A.pX(B.Hz,null,null),B.P,new A.vR(1,B.PJ,new A.bG(B.Dy,B.p)),this.c.W(0,new A.j(0,40.95)),1.25,B.XI)}}
+E(a){return A.aL1(new A.pX(B.Hz,null,null),B.P,new A.vR(1,B.PI,new A.bG(B.Dy,B.p)),this.c.W(0,new A.j(0,40.95)),1.25,B.XI)}}
 A.r0.prototype={
 J(){return"MaterialType."+this.b}}
 A.CM.prototype={
@@ -56433,7 +56433,7 @@ gjt(){return A.b3c()},
 UW(a,b,c,d,e,f){return A.aTi(a,b,c,d,e,f)}}
 A.Qa.prototype={
 a5H(a){var s=t.Tr
-s=A.Y(new A.a0(B.P6,new A.ahD(a),s),s.i("an.E"))
+s=A.Y(new A.a0(B.P5,new A.ahD(a),s),s.i("an.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -62735,10 +62735,10 @@ dN(a){var s,r,q=this.b,p=q.a.c,o=a.a1(0,q.git())
 p=p.a
 p===$&&A.a()
 s=p.a.getGlyphPositionAtCoordinate(o.a,o.b)
-r=B.OS[J.at(s.affinity.value)]
+r=B.OR[J.at(s.affinity.value)]
 return new A.au(J.at(s.pos),r)},
 ux(){var s,r,q=this.b,p=q.git()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Pv
+if(!isFinite(p.a)||!isFinite(p.b))return B.Pu
 s=q.f
 if(s==null){s=q.a.c.ux()
 q.f=s}if(p.j(0,B.j))r=s
@@ -72449,7 +72449,7 @@ break
 case 1:return A.I(q,r)}})
 return A.J($async$F1,r)},
 a98(a,b){var s,r,q,p
-if(a===b)return B.Pr
+if(a===b)return B.Pq
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.io(B.fu,a)
@@ -74475,7 +74475,7 @@ A.mp.prototype={}
 A.QM.prototype={
 ly(a,b,c){var s,r,q,p,o,n=$.aa.a7$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.vz,r=0;r<2;++r){q=B.Pi[r]
+for(s=t.vz,r=0;r<2;++r){q=B.Ph[r]
 p=n.e
 p.toString
 o=A.aDI(p,q,s)
@@ -76320,7 +76320,7 @@ q.bi()
 q.cq$.G(0,s.gaeA())
 s.e=q}return q},
 gQr(){var s=this.f
-return s===$?this.f=new A.asG(1,B.O6,B.c8):s},
+return s===$?this.f=new A.asG(1,B.O5,B.c8):s},
 ghB(){var s=this.z
 s=s==null?null:$.co().d===s
 return s===!0},
@@ -76982,7 +76982,7 @@ h.GN()
 r=h.ga9V()
 q=q.v9
 h.e!==$&&A.bb()
-h.e=new A.S6(s,new A.ct(B.RD,l),new A.qX(),p,B.cy,0,k,h.gacd(),h.gacf(),r,B.cy,0,j,h.gac7(),h.gac9(),r,i,B.Py,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.MQ(),new A.MQ())
+h.e=new A.S6(s,new A.ct(B.RD,l),new A.qX(),p,B.cy,0,k,h.gacd(),h.gacf(),r,B.cy,0,j,h.gac7(),h.gac9(),r,i,B.Px,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.MQ(),new A.MQ())
 return h},
 xW(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -80657,7 +80657,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.U(b)!==A.u(s))return!1
 return b instanceof A.ay&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cC(null,null)},
-gu(a){return A.Q(this.a,this.b,null,this.d,A.bN(B.Ps),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.Q(this.a,this.b,null,this.d,A.bN(B.Pr),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.c.oL(B.i.na(this.a,16).toUpperCase(),5,"0")+")"}}
 A.qF.prototype={
 cm(a){return!this.w.j(0,a.w)},
@@ -81781,7 +81781,7 @@ h=r&&e
 c=r?e:c.CW
 if(c==null)c=B.ep
 r=r&&e
-g=new A.CS(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.uU(e),B.Pp,r===!0)
+g=new A.CS(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.uU(e),B.Po,r===!0)
 if(!g.j(0,f.e))f.a4(new A.avZ(f,g))},
 zX(){if(this.d==null)this.q1()},
 I0(){this.q1()},
@@ -82150,7 +82150,7 @@ r.O(0,s.Zh(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.Pn[p]
+for(;!1;++p){o=B.Pm[p]
 n=l.c
 n.toString
 m=new A.iw(o.HO(n),null,!0,B.ny,B.cg,new A.tW(new ($.a3Z())(B.cg)),B.cg)
@@ -82515,7 +82515,7 @@ E(a){var s,r,q=this,p=null,o=q.gabM(),n=A.hX(a),m=q.bz$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gM()==null){r=q.gMX()
-r=J.o1(r.slice(0),A.a1(r).c)}else r=B.Po
+r=J.o1(r.slice(0),A.a1(r).c)}else r=B.Pn
 return new A.qB(p,new A.dr(new A.ahb(q,a),A.CE(B.c0,new A.Lw(!1,A.aEs(A.jw(!0,p,A.G2(m,new A.w7(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),o,q.gaep(),p,p,o),p,t.w3),p)}}
 A.aha.prototype={
 $1(a){var s=this.a.c
@@ -88134,7 +88134,7 @@ r.yZ()
 return s.aP()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gF3(),p=0;p<s.length;s.length===r||(0,A.G)(s),++p)s[p].L(0,q)
-o.b=B.Pq
+o.b=B.Pp
 o.y=!1
 o.cV()},
 e7(a,b){return a.mG(b)},
@@ -92157,7 +92157,7 @@ return B.d.br(r,s)},
 $S:581}
 A.PK.prototype={
 E(a){var s=A.xn(B.aq,null,B.ke,!0).alU(B.Do,B.k7)
-return new A.CN(B.Kd,A.b([$.aQ2()],t.tc),"Mirabella Estate Management Services",s,!1,null)}}
+return new A.CN(B.Kd,A.b([$.aQ2()],t.tc),"MEMS",s,!1,null)}}
 A.jR.prototype={}
 A.rV.prototype={}
 A.k1.prototype={}
@@ -92385,7 +92385,7 @@ k=A.bq(a,l,t.w).w
 r=m.d
 r===$&&A.a()
 q=t.p
-r=A.aT(A.b([new A.Fp(B.Ob,r,!0,B.x,3,B.x,B.aX,B.a0r,B.a2b,l),A.aM(l,l,B.k,B.hB,l,l,l,1,l,l,l,l,l)],q),B.o,B.l,B.m)
+r=A.aT(A.b([new A.Fp(B.Oa,r,!0,B.x,3,B.x,B.aX,B.a0r,B.a2b,l),A.aM(l,l,B.k,B.hB,l,l,l,1,l,l,l,l,l)],q),B.o,B.l,B.m)
 p=A.b([],q)
 if(k.a.a>=900){k=A.ao(8)
 o=A.dx(B.Kg,B.bk,l,18)
@@ -92395,7 +92395,7 @@ p.push(A.aM(l,A.bp(A.b([o,B.eD,new A.bM(B.DX,A.ac(n,l,B.B,l,!1,A.bE(l,l,B.bk,l,l
 return A.Er(new A.zP(!1,B.a63,p,new A.QG(r,B.XH,l),0,B.f,B.Q,!1,8,new A.Zn(l,60,1/0,116),l),B.d8,new A.Fq(m.d,A.b([new A.Ik("people",new A.apM(m),l),new A.V9(new A.apN(m),l),new A.Yj(new A.apO(m),l),new A.UQ(m.gadl(),l)],q),l))}}
 A.apG.prototype={
 $1(a){var s=null,r=A.ao(16)
-return A.aDK(A.b([A.rZ(!1,B.n_,s,s,s,s,s,s,new A.apE(a),s,s),A.v6(!1,B.a41,s,s,s,s,s,s,new A.apF(a),s,A.hS(s,s,B.cV,s,s,s,s,s,s,s,s,s,s,s,new A.bG(A.ao(8),B.p),s,s,s,s,s))],t.p),B.a44,new A.bG(r,B.p),B.a3M)},
+return A.aDK(A.b([A.rZ(!1,B.n_,s,s,s,s,s,s,new A.apE(a),s,s),A.v6(!1,B.a41,s,s,s,s,s,s,new A.apF(a),s,A.hS(s,s,B.cV,s,s,s,s,s,s,s,s,s,s,s,new A.bG(A.ao(8),B.p),s,s,s,s,s))],t.p),B.a44,new A.bG(r,B.p),B.a3L)},
 $S:116}
 A.apE.prototype={
 $0(){A.ea(this.a,!1).lI(!1)
@@ -92410,7 +92410,7 @@ $1(a){return B.nL},
 $S:224}
 A.apD.prototype={
 $1(a){var s=null,r=A.ao(16)
-return A.aDK(A.b([A.rZ(!1,B.n_,s,s,s,s,s,s,new A.apB(a),s,s),A.v6(!1,B.a3c,s,s,s,s,s,s,new A.apC(a),s,A.hS(s,s,B.cV,s,s,s,s,s,s,s,s,s,s,s,new A.bG(A.ao(8),B.p),s,s,s,s,s))],t.p),B.a3Q,new A.bG(r,B.p),B.a4_)},
+return A.aDK(A.b([A.rZ(!1,B.n_,s,s,s,s,s,s,new A.apB(a),s,s),A.v6(!1,B.a3b,s,s,s,s,s,s,new A.apC(a),s,A.hS(s,s,B.cV,s,s,s,s,s,s,s,s,s,s,s,new A.bG(A.ao(8),B.p),s,s,s,s,s))],t.p),B.a3Q,new A.bG(r,B.p),B.a4_)},
 $S:116}
 A.apB.prototype={
 $0(){A.ea(this.a,!1).lI(!1)
@@ -92448,7 +92448,7 @@ A.aqp.prototype={
 $2(a,b){var s=null,r=b.b
 if(r<48)return B.aD
 if(r<120)return A.aM(s,B.Lr,B.k,s,s,new A.aV(B.x,s,s,A.ao(8),s,s,B.v),s,32,s,s,s,s,32)
-if(r<200)return A.bp(A.b([A.aM(s,B.LT,B.k,s,s,new A.aV(B.x,s,s,A.ao(8),s,s,B.v),s,36,s,s,s,s,36),B.aU,B.a3b],t.p),B.o,B.l,B.ab,0)
+if(r<200)return A.bp(A.b([A.aM(s,B.LT,B.k,s,s,new A.aV(B.x,s,s,A.ao(8),s,s,B.v),s,36,s,s,s,s,36),B.aU,B.a3a],t.p),B.o,B.l,B.ab,0)
 return A.bp(A.b([A.aM(s,B.LN,B.k,s,s,new A.aV(B.x,s,s,A.ao(8),s,s,B.v),s,40,s,s,s,s,40),B.b0,new A.bM(new A.a_(0,320,0,1/0),A.ac("Admin Dashboard",1,B.B,s,!1,A.bE(s,s,s,s,s,s,s,s,s,s,s,20,s,s,B.V,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),s)],t.p),B.o,B.l,B.ab,0)},
 $S:586}
 A.Ik.prototype={
@@ -92940,12 +92940,12 @@ o=l.h1("Mobile Numbers (comma separated)",o)
 n=A.e_(new A.ax3(l))
 m=l.x
 m===$&&A.a()
-m=A.c8(A.wY(A.aEx(k,A.aT(A.b([B.a42,B.W,p,B.Iz,B.a3J,B.W,o,B.W,n,B.W,l.a8K("Address",m,2),B.W,A.e_(new A.ax4(l))],r),B.y,B.l,B.m),l.d),k,B.a3,k,B.df,k,k,B.ad),1)
+m=A.c8(A.wY(A.aEx(k,A.aT(A.b([B.a42,B.W,p,B.Iz,B.a3I,B.W,o,B.W,n,B.W,l.a8K("Address",m,2),B.W,A.e_(new A.ax4(l))],r),B.y,B.l,B.m),l.d),k,B.a3,k,B.df,k,k,B.ad),1)
 p=l.e
 o=A.rZ(!1,B.n_,k,k,k,k,k,k,p?k:new A.ax5(a),k,k)
 p=p?k:l.gah3()
 n=A.hS(k,k,B.x,k,k,k,k,k,k,k,k,k,B.pv,k,new A.bG(A.ao(10),B.p),k,k,k,k,k)
-return A.aIF(k,k,new A.bM(new A.a_(0,h,0,s),A.aT(A.b([q,m,A.aM(k,A.bp(A.b([o,B.b0,A.v6(!1,l.e?B.BL:B.a3P,k,k,k,k,k,k,p,k,n)],r),B.o,B.fH,B.m,0),B.k,k,k,new A.aV(B.d8,k,k,B.Dz,k,k,B.v),k,k,k,B.cl,k,k,k)],r),B.o,B.l,B.ab),k),k,k,k,B.Jf,B.We,k,new A.bG(i,B.p),k)},
+return A.aIF(k,k,new A.bM(new A.a_(0,h,0,s),A.aT(A.b([q,m,A.aM(k,A.bp(A.b([o,B.b0,A.v6(!1,l.e?B.BL:B.a3O,k,k,k,k,k,k,p,k,n)],r),B.o,B.fH,B.m,0),B.k,k,k,new A.aV(B.d8,k,k,B.Dz,k,k,B.v),k,k,k,B.cl,k,k,k)],r),B.o,B.l,B.ab),k),k,k,k,B.Jf,B.We,k,new A.bG(i,B.p),k)},
 Ew(a,b,c,d){var s=null
 return A.oR(s,b,A.vw(s,new A.dI(4,A.ao(10),new A.b5(B.f7,1,B.z,-1)),s,B.fk,s,s,s,s,!0,new A.dI(4,A.ao(10),new A.b5(B.f7,1,B.z,-1)),s,s,s,s,s,B.d8,!0,s,s,s,s,new A.dI(4,A.ao(10),B.dS),s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,!0,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s),s,s,c,s,!1,s,B.cl,s,d)},
 h1(a,b){return this.Ew(a,b,1,null)},
@@ -93146,7 +93146,7 @@ $0(){return this.a.c.$1(B.b.ga9(this.b.b.b.a))},
 $S:0}
 A.UQ.prototype={
 E(a){var s=this,r=null,q=A.ao(24),p=A.b([new A.bs(0,B.N,A.aH(13,B.q.B()>>>16&255,B.q.B()>>>8&255,B.q.B()&255),B.iC,20)],t.V),o=A.aM(r,B.M1,B.k,r,r,new A.aV(r,r,r,r,r,new A.i4(B.ca,B.dQ,B.bq,A.b([B.x,A.aH(B.d.aF(178.5),B.x.B()>>>16&255,B.x.B()>>>8&255,B.x.B()&255)],t.t_),r,r),B.ce),r,r,r,B.cl,r,r,r),n=A.ac("Import multiple records at once from JSON file",r,r,r,r,A.bE(r,r,B.aX,r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),B.a_,r,r),m=A.ao(12),l=A.pM(B.hB,1),k=t.p
-return A.cw(A.aM(r,new A.aZ(B.px,A.aT(A.b([o,B.d_,B.a3Z,B.Z,n,B.d_,A.aM(r,A.aT(A.b([A.bp(A.b([A.dx(B.lo,B.bk,r,18),B.aU,A.ac("What you need:",r,r,r,r,A.bE(r,r,B.bk,r,r,r,r,r,r,r,r,13,r,r,B.bD,r,r,!0,r,r,r,r,r,r,r,r),r,r,r)],k),B.o,B.l,B.m,0),B.Z,s.DN("JSON file with array of objects"),s.DN("Fields: Name, CNIC, Plot No, etc."),s.DN("Data will be normalized automatically")],k),B.y,B.l,B.m),B.k,r,r,new A.aV(B.d8,r,l,m,r,r,B.v),r,r,r,B.bC,r,r,r),B.d_,A.cp(A.v7(B.LX,B.a3p,s.c,A.hS(r,r,B.x,r,r,r,0,r,r,B.f,r,r,B.pn,r,new A.bG(A.ao(12),B.p),r,r,r,r,r)),r,1/0)],k),B.o,B.l,B.ab),r),B.k,r,B.DY,new A.aV(B.f,r,r,q,p,r,B.v),r,r,B.df,r,r,r,r),r,r)},
+return A.cw(A.aM(r,new A.aZ(B.px,A.aT(A.b([o,B.d_,B.a3Z,B.Z,n,B.d_,A.aM(r,A.aT(A.b([A.bp(A.b([A.dx(B.lo,B.bk,r,18),B.aU,A.ac("What you need:",r,r,r,r,A.bE(r,r,B.bk,r,r,r,r,r,r,r,r,13,r,r,B.bD,r,r,!0,r,r,r,r,r,r,r,r),r,r,r)],k),B.o,B.l,B.m,0),B.Z,s.DN("JSON file with array of objects"),s.DN("Fields: Name, CNIC, Plot No, etc."),s.DN("Data will be normalized automatically")],k),B.y,B.l,B.m),B.k,r,r,new A.aV(B.d8,r,l,m,r,r,B.v),r,r,r,B.bC,r,r,r),B.d_,A.cp(A.v7(B.LX,B.a3o,s.c,A.hS(r,r,B.x,r,r,r,0,r,r,B.f,r,r,B.pn,r,new A.bG(A.ao(12),B.p),r,r,r,r,r)),r,1/0)],k),B.o,B.l,B.ab),r),B.k,r,B.DY,new A.aV(B.f,r,r,q,p,r,B.v),r,r,B.df,r,r,r,r),r,r)},
 DN(a){var s=null
 return new A.aZ(B.Jy,A.bp(A.b([A.aM(s,s,B.k,s,s,new A.aV(B.aX,s,s,s,s,s,B.ce),s,4,s,s,s,s,4),B.aU,A.ac(a,s,s,s,s,A.bE(s,s,B.aX,s,s,s,s,s,s,s,s,12,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.o,B.l,B.m,0),s)}}
 A.tD.prototype={
@@ -93225,7 +93225,7 @@ case"user-disabled":return"This account has been disabled."
 case"too-many-requests":return"Too many failed attempts. Please try again later."
 case"invalid-credential":return"Invalid email or password."
 default:return"Login failed. Please check your credentials."}},
-E(a){var s,r,q=this,p=null,o=A.ao(20),n=t.p,m=A.b([A.aM(p,B.LE,B.k,p,p,new A.aV(B.x,p,p,A.ao(16),p,p,B.v),p,p,p,B.bC,p,p,p),B.d_,B.a3T,B.Z,B.a3j,B.XP],n),l=q.x
+E(a){var s,r,q=this,p=null,o=A.ao(20),n=t.p,m=A.b([A.aM(p,B.LE,B.k,p,p,new A.aV(B.x,p,p,A.ao(16),p,p,B.v),p,p,p,B.bC,p,p,p),B.d_,B.a3T,B.Z,B.a3h,B.XP],n),l=q.x
 if(l!=null){s=A.ao(8)
 r=A.pM(B.jZ,1)
 m.push(A.aM(p,A.bp(A.b([B.LW,B.aU,A.c8(A.ac(l,p,p,p,p,B.a28,p,p,p),1)],n),B.o,B.l,B.m,0),B.k,p,p,new A.aV(B.Hb,p,r,s,p,p,B.v),p,p,B.J5,B.cQ,p,p,p))}n=q.r
@@ -93240,7 +93240,7 @@ n=q.r?p:q.gadW()
 l=A.hS(p,p,B.x,B.x,p,p,2,p,p,B.f,p,p,p,p,new A.bG(A.ao(12),B.p),p,p,p,p,p)
 m.push(A.cp(A.v6(!1,q.r?B.XM:B.a40,p,p,p,p,p,p,n,p,l),52,1/0))
 m.push(B.bV)
-m.push(B.a3E)
+m.push(B.a3D)
 return A.Er(p,p,A.aM(p,A.cw(A.wY(new A.bM(B.DR,A.a5A(new A.aZ(B.px,A.aEx(p,A.aT(m,B.o,B.l,B.ab),q.d),p),p,24,p,new A.bG(o,B.p)),p),p,B.a3,p,B.df,p,p,B.ad),p,p),B.k,p,p,B.o4,p,p,p,p,p,p,p))}}
 A.apP.prototype={
 $0(){var s=this.a
@@ -93295,7 +93295,7 @@ n=o<360?36:48
 return A.aM(p,A.cw(new A.bM(B.cd,A.e_(new A.a49(o,s,r,q)),p),p,p),B.k,p,p,B.E6,p,p,p,new A.a5(16,n,16,n),p,p,p)}}
 A.a49.prototype={
 $2(a,b){var s=this,r=null,q=b.b,p=q>=950,o=p?240:B.d.dQ(s.a*0.42,180,260),n=p?B.aG:B.ad,m=p?B.o:B.y,l=p?q*0.52:q,k=s.b,j=s.d,i=t.p
-l=A.cp(A.aT(A.b([A.aM(r,B.a47,B.k,r,r,new A.aV(B.x,r,r,A.ao(999),r,r,B.v),r,r,r,B.cR,r,r,r),B.bV,A.ac("Your Trusted Partner in Real Estate Management",r,r,r,r,A.bE(r,r,B.f,r,r,r,r,r,r,r,r,s.c,r,r,B.V,r,1.15,!0,r,r,r,r,r,r,r,r),r,r,k),B.eE,A.ac("Established in 2015, Mirabella Estate Management Services has grown to become Islamabad's most trusted property management company. With over a decade of experience, we've successfully managed hundreds of properties and served thousands of satisfied clients.",r,r,r,r,A.bE(r,r,B.hA,r,r,r,r,r,r,r,r,j,r,r,r,r,1.6,!0,r,r,r,r,r,r,r,r),r,r,k),B.W,A.ac("Our mission is simple: to provide property owners with peace of mind through professional, transparent, and efficient management services. We combine local market expertise with modern technology to deliver exceptional results.",r,r,r,r,A.bE(r,r,B.hA,r,r,r,r,r,r,r,r,j,r,r,r,r,1.6,!0,r,r,r,r,r,r,r,r),r,r,k),B.dB,new A.Wz(r)],i),B.y,B.l,B.m),r,l)
+l=A.cp(A.aT(A.b([A.aM(r,B.a47,B.k,r,r,new A.aV(B.x,r,r,A.ao(999),r,r,B.v),r,r,r,B.cR,r,r,r),B.bV,A.ac("Your Trusted Partner in Real Estate Management",r,r,r,r,A.bE(r,r,B.f,r,r,r,r,r,r,r,r,s.c,r,r,B.V,r,1.15,!0,r,r,r,r,r,r,r,r),r,r,k),B.eE,A.ac("Established in 2015, MEMS has grown to become Islamabad's most trusted property management company. With over a decade of experience, we've successfully managed hundreds of properties and served thousands of satisfied clients.",r,r,r,r,A.bE(r,r,B.hA,r,r,r,r,r,r,r,r,j,r,r,r,r,1.6,!0,r,r,r,r,r,r,r,r),r,r,k),B.W,A.ac("Our mission is simple: to provide property owners with peace of mind through professional, transparent, and efficient management services. We combine local market expertise with modern technology to deliver exceptional results.",r,r,r,r,A.bE(r,r,B.hA,r,r,r,r,r,r,r,r,j,r,r,r,r,1.6,!0,r,r,r,r,r,r,r,r),r,r,k),B.dB,new A.Wz(r)],i),B.y,B.l,B.m),r,l)
 k=p?0:28
 k=A.cp(r,k,p?28:0)
 if(p)q*=0.44
@@ -93322,14 +93322,14 @@ return A.aM(B.O,B.M_,B.k,B.GR,s,s,s,this.a.d,s,s,s,s,s)},
 $S:231}
 A.a0m.prototype={
 E(a){var s=null,r=A.ao(16),q=A.aH(245,B.f.B()>>>16&255,B.f.B()>>>8&255,B.f.B()&255),p=A.ao(16)
-return A.dz(!1,B.D,!0,r,A.aM(s,A.bp(B.Od,B.o,B.co,B.m,0),B.k,s,s,new A.aV(q,s,s,p,s,s,B.v),s,s,s,B.fk,s,s,s),B.k,s,14,s,s,s,s,s,B.aw)}}
+return A.dz(!1,B.D,!0,r,A.aM(s,A.bp(B.Oc,B.o,B.co,B.m,0),B.k,s,s,new A.aV(q,s,s,p,s,s,B.v),s,s,s,B.fk,s,s,s),B.k,s,14,s,s,s,s,s,B.aw)}}
 A.yQ.prototype={
 E(a){var s,r=null,q=A.bo(a,B.a7)
 q=q==null?r:q.gb7()
 s=(q==null?B.U:q).dF(0,1.2)
 return new A.dp(1,B.di,A.aT(A.b([A.ac(this.c,r,r,r,r,B.a2g,r,r,s),B.eF,A.ac(this.d,r,r,r,r,B.a2G,r,r,s)],t.p),B.y,B.l,B.m),r)}}
 A.W0.prototype={
-E(a){return B.Tk}}
+E(a){return B.Tl}}
 A.HZ.prototype={
 E(a){var s,r=null,q=A.bo(a,B.a7)
 q=q==null?r:q.gb7()
@@ -93409,7 +93409,7 @@ A.qt(B.fe,new A.arJ(s),t.P)},
 E(a){var s,r,q=null,p=A.bq(a,q,t.w).w.a.a,o=A.bo(a,B.a7)
 o=o==null?q:o.gb7()
 s=(o==null?B.U:o).dF(0,1.2)
-o=A.aM(q,B.a3v,B.k,q,q,new A.aV(B.ci,q,q,A.ao(999),q,q,B.v),q,q,q,B.cR,q,q,q)
+o=A.aM(q,B.a3t,B.k,q,q,new A.aV(B.ci,q,q,A.ao(999),q,q,B.v),q,q,q,B.cR,q,q,q)
 if(p>900)r=34
 else r=p>600?30:26
 return A.aM(q,A.cw(new A.bM(B.DS,A.aT(A.b([o,B.W,A.ac("Start Your Journey With Us",q,q,q,q,A.bE(q,q,B.ar,q,q,q,q,q,q,q,q,r,q,q,B.V,q,1.2,!0,q,q,q,q,q,q,q,q),B.a_,q,s),B.bI,new A.aZ(B.cS,A.ac("Let's discuss how we can help you maximize your property investment. Fill out the form or reach us directly.",q,q,q,q,B.a_e,B.a_,q,s),q),B.dB,A.e_(new A.arS()),B.bV,A.dz(!1,B.D,!0,A.ao(20),A.Ar(A.ao(20),A.e_(new A.arT(this)),B.bj),B.k,q,16,q,q,q,q,q,B.aw)],t.p),B.o,B.l,B.m),q),q,q),B.k,q,q,B.E4,q,q,q,B.de,q,q,q)}}
@@ -93438,7 +93438,7 @@ break $label0$0}r=184
 break $label0$0}return A.Oj(new A.rT(s,12,12,r),new A.arR(),3,B.cW,!0)},
 $S:61}
 A.arR.prototype={
-$2(a,b){return B.OF[b]},
+$2(a,b){return B.OE[b]},
 $S:602}
 A.arT.prototype={
 $2(a,b){var s,r
@@ -93487,7 +93487,7 @@ s=(q==null?B.U:q).dF(0,1.2)
 return A.aM(r,A.aT(A.b([A.ac("Ready to Get Started?",r,r,r,r,B.Z7,r,r,s),B.b6,A.ac("Schedule a free consultation with our property management experts. We'll assess your property, discuss your goals, and create a customized plan.",r,r,r,r,B.ZT,r,r,s),B.h4,B.a66,B.b6,B.a65,B.b6,B.a67,B.h4,B.a6v],t.p),B.y,B.l,B.m),B.k,r,r,B.o4,r,r,r,B.pw,r,r,r)}}
 A.X6.prototype={
 E(a){var s=null,r=A.aH(31,B.f.B()>>>16&255,B.f.B()>>>8&255,B.f.B()&255),q=A.ao(14)
-return A.aM(s,A.bp(B.Pj,B.o,B.l,B.m,0),B.k,s,s,new A.aV(r,s,s,q,s,s,B.v),s,s,s,B.ps,s,s,s)}}
+return A.aM(s,A.bp(B.Pi,B.o,B.l,B.m,0),B.k,s,s,new A.aV(r,s,s,q,s,s,B.v),s,s,s,B.ps,s,s,s)}}
 A.xM.prototype={
 E(a){var s,r=null,q=A.bo(a,B.a7)
 q=q==null?r:q.gb7()
@@ -93511,7 +93511,7 @@ return A.vw(s,new A.dI(4,A.ao(12),B.hl),s,B.ps,s,s,s,s,!0,new A.dI(4,A.ao(12),B.
 $1(a){return this.$2$hint(a,null)},
 $S:603}
 A.ayH.prototype={
-$2(a,b){var s=null,r="your@email.com",q="+92 300 1234567",p=this.a,o=p.x,n=!o,m=this.c,l=t.p,k=A.b([A.ac("Send Us a Message",s,s,s,s,B.a2C,s,s,this.b),B.bV,A.oR(B.PV,p.d,m.$2$hint("Full Name *","Enter your full name"),n,s,1,s,!1,new A.ayu(a),B.fi,B.dE,new A.ayv()),B.W],l),j=p.e,i=p.f
+$2(a,b){var s=null,r="your@email.com",q="+92 300 1234567",p=this.a,o=p.x,n=!o,m=this.c,l=t.p,k=A.b([A.ac("Send Us a Message",s,s,s,s,B.a2C,s,s,this.b),B.bV,A.oR(B.PT,p.d,m.$2$hint("Full Name *","Enter your full name"),n,s,1,s,!1,new A.ayu(a),B.fi,B.dE,new A.ayv()),B.W],l),j=p.e,i=p.f
 if(b.b>=560)k.push(A.bp(A.b([A.c8(A.oR(B.lx,j,m.$2$hint("Email *",r),n,B.h9,1,s,!1,new A.ayw(a),B.fi,B.dE,new A.ayz()),1),B.b0,A.c8(A.oR(B.qO,i,m.$2$hint("Phone *",q),n,B.mU,1,s,!1,new A.ayA(a),B.fi,B.dE,new A.ayB()),1)],l),B.o,B.l,B.m,0))
 else k.push(A.aT(A.b([A.oR(B.lx,j,m.$2$hint("Email *",r),n,B.h9,1,s,!1,new A.ayC(a),B.fi,B.dE,new A.ayD()),B.W,A.oR(B.qO,i,m.$2$hint("Phone *",q),n,B.mU,1,s,!1,new A.ayE(a),B.fi,B.dE,new A.ayF())],l),B.o,B.l,B.m))
 k.push(B.W)
@@ -93519,12 +93519,12 @@ l=p.w
 if(l.length===0)l=s
 j=m.$1("Property Type")
 i=o?s:new A.ayG(p)
-k.push(A.aU7(j,B.PU,i,l,t.N))
+k.push(A.aU7(j,B.PS,i,l,t.N))
 k.push(B.W)
 k.push(A.oR(s,p.r,m.$2$hint("Your Message *","Tell us about your property management needs..."),n,s,6,4,!1,new A.ayx(p),B.J6,B.h8,new A.ayy()))
 k.push(B.eE)
 n=o?B.aD:B.qk
-m=o?B.BL:B.a3h
+m=o?B.BL:B.a3g
 l=A.hS(s,s,B.x,s,s,s,10,s,s,B.f,s,s,B.pn,s,new A.bG(A.ao(12),B.p),s,s,s,s,s)
 k.push(A.cp(A.v7(n,m,o?s:p.z,l),s,1/0))
 k.push(B.bI)
@@ -93637,12 +93637,12 @@ s=(n==null?B.U:n).dF(0,1.2)
 if(o>900)r=34
 else r=o>600?30:26
 q=o>600?18:16
-return A.aM(p,A.cw(new A.bM(B.eT,A.aT(A.b([A.aM(p,B.a3L,B.k,p,p,new A.aV(B.ci,p,p,A.ao(999),p,p,B.v),p,p,p,B.cR,p,p,p),B.W,A.ac("Frequently Asked Questions",p,p,p,p,A.bE(p,p,B.ar,p,p,p,p,p,p,p,p,r,p,p,B.V,p,1.2,!0,p,p,p,p,p,p,p,p),B.a_,p,s),B.bI,new A.aZ(B.cS,A.ac("Everything you need to know about our property management services",p,p,p,p,A.bE(p,p,B.e3,p,p,p,p,p,p,p,p,q,p,p,p,p,1.45,!0,p,p,p,p,p,p,p,p),B.a_,p,s),p),B.d_,A.aEV(new A.a92(),8,p,B.cW,new A.a93(),!0)],t.p),B.o,B.l,B.m),p),p,p),B.k,p,p,p,p,p,p,B.de,p,p,p)}}
+return A.aM(p,A.cw(new A.bM(B.eT,A.aT(A.b([A.aM(p,B.a3K,B.k,p,p,new A.aV(B.ci,p,p,A.ao(999),p,p,B.v),p,p,p,B.cR,p,p,p),B.W,A.ac("Frequently Asked Questions",p,p,p,p,A.bE(p,p,B.ar,p,p,p,p,p,p,p,p,r,p,p,B.V,p,1.2,!0,p,p,p,p,p,p,p,p),B.a_,p,s),B.bI,new A.aZ(B.cS,A.ac("Everything you need to know about our property management services",p,p,p,p,A.bE(p,p,B.e3,p,p,p,p,p,p,p,p,q,p,p,p,p,1.45,!0,p,p,p,p,p,p,p,p),B.a_,p,s),p),B.d_,A.aEV(new A.a92(),8,p,B.cW,new A.a93(),!0)],t.p),B.o,B.l,B.m),p),p,p),B.k,p,p,p,p,p,p,B.de,p,p,p)}}
 A.a93.prototype={
 $2(a,b){return B.b6},
 $S:109}
 A.a92.prototype={
-$2(a,b){var s=B.Pk[b]
+$2(a,b){var s=B.Pj[b]
 return new A.tw(s.a,s.b,null)},
 $S:607}
 A.tw.prototype={
@@ -93685,8 +93685,8 @@ r=o<360?28:40
 return A.aM(p,A.cw(new A.bM(B.cd,A.e_(new A.abp(this,o,s,q)),p),p,p),B.k,B.k7,p,p,p,p,p,new A.a5(16,r,16,r),p,p,p)}}
 A.abp.prototype={
 $2(a,b){var s,r,q,p,o,n,m=this,l=null,k=b.b,j=k>900,i=B.d.dQ(j?360:m.b*0.45,200,380),h=j?B.aG:B.ad,g=j?B.co:B.l,f=j?k*0.48:k,e=A.ao(999)
-e=A.aM(l,A.bp(B.P5,B.o,B.l,B.ab,0),B.k,l,l,new A.aV(B.oO,l,l,e,l,l,B.v),l,l,l,B.cR,l,l,l)
-s=A.d3(B.OT,l,A.bE(l,l,B.ar,l,l,l,l,l,l,l,l,m.c,l,l,B.V,l,1.15,!0,l,l,l,l,l,l,l,l),l)
+e=A.aM(l,A.bp(B.P4,B.o,B.l,B.ab,0),B.k,l,l,new A.aV(B.oO,l,l,e,l,l,B.v),l,l,l,B.cR,l,l,l)
+s=A.d3(B.OS,l,A.bE(l,l,B.ar,l,l,l,l,l,l,l,l,m.c,l,l,B.V,l,1.15,!0,l,l,l,l,l,l,l,l),l)
 r=A.bo(a,B.a7)
 r=r==null?l:r.gb7()
 s=A.aLI(s,l,l,(r==null?B.U:r).dF(0,1.2))
@@ -93698,9 +93698,9 @@ n=t.p
 r=A.aM(l,A.aT(A.b([A.bp(A.b([B.LL,B.aU,A.c8(A.ac("Prime Location: Gulshan-e-Sehat E-18, Islamabad",l,l,l,l,A.bE(l,l,B.e2,l,l,l,l,l,l,l,l,o,l,l,B.ae,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),1)],n),B.o,B.l,B.m,0),B.W,A.bp(A.b([B.Lv,B.aU,A.ac("Plot Size: 40' \xd7 70' (2,800 sq ft)",l,l,l,l,A.bE(l,l,B.e2,l,l,l,l,l,l,l,l,o,l,l,B.bD,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],n),B.o,B.l,B.m,0),B.Z,A.bp(A.b([B.LI,B.aU,A.ac("Price: PKR 45,000,000",l,l,l,l,A.bE(l,l,B.e2,l,l,l,l,l,l,l,l,p+2,l,l,B.V,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],n),B.o,B.l,B.m,0)],n),B.y,B.l,B.m),B.k,l,l,new A.aV(B.GL,l,q,r,l,l,B.v),l,l,l,B.bC,l,l,l)
 q=A.hS(l,l,B.hG,l,l,l,6,l,l,B.f,l,l,B.pt,l,new A.bG(A.ao(12),B.p),l,l,l,l,l)
 p=m.a
-q=A.v7(B.Ln,B.a3m,p.c,q)
+q=A.v7(B.Ln,B.a3k,p.c,q)
 o=A.aF6(l,l,l,l,l,l,l,l,l,B.hG,l,l,B.pt,l,new A.bG(A.ao(12),B.p),B.DG,l,l,l,l)
-f=A.cp(A.aT(A.b([e,B.bV,s,B.W,r,B.h4,A.lk(B.br,A.b([new A.bM(B.DT,q,l),new A.bM(B.DQ,A.aKB(B.M3,B.a3s,p.d,o),l)],n),12,12),B.d_,B.a7n],n),B.y,B.l,B.m),l,f)
+f=A.cp(A.aT(A.b([e,B.bV,s,B.W,r,B.h4,A.lk(B.br,A.b([new A.bM(B.DT,q,l),new A.bM(B.DQ,A.aKB(B.M3,B.a3q,p.d,o),l)],n),12,12),B.d_,B.a7n],n),B.y,B.l,B.m),l,f)
 e=j?0:28
 e=A.cp(l,e,j?28:0)
 if(j)k*=0.45
@@ -93712,11 +93712,11 @@ return A.aJg(A.b([f,e,A.cp(new A.aZ(B.J9,A.l4(B.bN,A.b([s,r,A.op(-14,A.dz(!1,B.D
 $S:41}
 A.abo.prototype={
 $3(a,b,c){var s=null
-return A.aM(B.O,A.aT(B.P8,B.o,B.cn,B.m),B.k,B.HI,s,s,s,this.a,s,s,s,s,s)},
+return A.aM(B.O,A.aT(B.P7,B.o,B.cn,B.m),B.k,B.HI,s,s,s,this.a,s,s,s,s,s)},
 $S:231}
 A.YI.prototype={
 E(a){var s=null,r=A.ao(16),q=A.pM(B.hK,2),p=A.b([new A.bs(0,B.N,A.aH(13,B.q.B()>>>16&255,B.q.B()>>>8&255,B.q.B()&255),B.iC,10)],t.V)
-return A.aM(s,A.aT(A.b([B.a3V,B.W,new A.yv(B.KZ,"Plan 1","50% advance, 50% within one month",s),B.pa,new A.yv(B.L_,"Plan 2","6 installments, 2 quarterly payments",s),B.pa,new A.yv(B.KY,"Plan 3","50% booking, 50% in 4 quarterly (PKR 5M each)",s),B.Z,B.a3C],t.p),B.y,B.l,B.m),B.k,s,s,new A.aV(B.f,s,q,r,p,s,B.v),s,s,s,B.bC,s,s,s)}}
+return A.aM(s,A.aT(A.b([B.a3V,B.W,new A.yv(B.KZ,"Plan 1","50% advance, 50% within one month",s),B.pa,new A.yv(B.L_,"Plan 2","6 installments, 2 quarterly payments",s),B.pa,new A.yv(B.KY,"Plan 3","50% booking, 50% in 4 quarterly (PKR 5M each)",s),B.Z,B.a3B],t.p),B.y,B.l,B.m),B.k,s,s,new A.aV(B.f,s,q,r,p,s,B.v),s,s,s,B.bC,s,s,s)}}
 A.yv.prototype={
 E(a){var s=null,r=A.ao(8),q=t.p
 return A.bp(A.b([A.aM(s,A.dx(this.c,B.x,s,20),B.k,s,s,new A.aV(B.ci,s,s,r,s,s,B.v),s,s,s,B.pz,s,s,s),B.b0,A.c8(A.aT(A.b([A.ac(this.d,s,s,s,s,B.Zh,s,s,s),B.dC,A.ac(this.e,s,s,s,s,B.a0k,s,s,s)],q),B.y,B.l,B.m),1)],q),B.y,B.l,B.m,0)}}
@@ -93807,13 +93807,13 @@ A.a1i.prototype={
 E(a){var s=null
 return A.aM(s,B.a7J,B.k,s,s,B.dT,s,s,s,B.hY,s,s,s)}}
 A.a1j.prototype={
-E(a){return A.bp(B.Ov,B.o,B.l,B.m,0)}}
+E(a){return A.bp(B.Ou,B.o,B.l,B.m,0)}}
 A.JW.prototype={
 E(a){var s=null
 return A.bp(A.b([A.dx(this.c,B.f,s,18),B.eD,new A.dp(1,B.aY,A.ac(this.d,s,B.B,s,s,B.mZ,s,s,s),s)],t.p),B.o,B.l,B.ab,0)}}
 A.Y5.prototype={
 E(a){var s=null,r=t.rY
-r=A.Y(new A.a0(B.PL,new A.aw1(this),r),r.i("an.E"))
+r=A.Y(new A.a0(B.PK,new A.aw1(this),r),r.i("an.E"))
 return A.aM(s,new A.bM(B.DW,A.aK4(r,s,s,!0),s),B.k,B.f,s,s,s,s,s,B.hY,s,s,s)}}
 A.aw1.prototype={
 $1(a){var s=null
@@ -93879,7 +93879,7 @@ if(n>900)s=32
 else s=n>600?30:26
 r=n>600?16:15
 q=m>0?m:0
-return A.i7(A.aDN(A.aM(p,A.cw(new A.bM(B.eT,A.aT(A.b([A.ac("Stay Updated",p,p,p,p,A.bE(p,p,B.f,p,p,p,p,p,p,p,p,s,p,p,B.V,p,1.15,!0,p,p,p,p,p,p,p,p),B.a_,p,p),B.Z,new A.aZ(B.cS,A.ac("Subscribe to our newsletter for property management tips, market insights, and exclusive offers",p,p,p,p,A.bE(p,p,B.k2,p,p,p,p,p,p,p,p,r,p,p,p,p,1.5,!0,p,p,p,p,p,p,p,p),B.a_,p,p),p),B.h4,A.e_(new A.awf(this)),B.Z,B.a3w],t.p),B.o,B.l,B.m),p),p,p),B.k,p,p,B.dT,p,p,p,B.hX,p,p,p),B.cN,B.dc,new A.a5(0,0,0,q)),l)}}
+return A.i7(A.aDN(A.aM(p,A.cw(new A.bM(B.eT,A.aT(A.b([A.ac("Stay Updated",p,p,p,p,A.bE(p,p,B.f,p,p,p,p,p,p,p,p,s,p,p,B.V,p,1.15,!0,p,p,p,p,p,p,p,p),B.a_,p,p),B.Z,new A.aZ(B.cS,A.ac("Subscribe to our newsletter for property management tips, market insights, and exclusive offers",p,p,p,p,A.bE(p,p,B.k2,p,p,p,p,p,p,p,p,r,p,p,p,p,1.5,!0,p,p,p,p,p,p,p,p),B.a_,p,p),p),B.h4,A.e_(new A.awf(this)),B.Z,B.a3u],t.p),B.o,B.l,B.m),p),p,p),B.k,p,p,B.dT,p,p,p,B.hX,p,p,p),B.cN,B.dc,new A.a5(0,0,0,q)),l)}}
 A.awd.prototype={
 $0(){return this.a.e=!0},
 $S:0}
@@ -93896,7 +93896,7 @@ A.awa.prototype={
 $1(a){return this.a.tJ()},
 $S:15}
 A.awf.prototype={
-$2(a,b){var s=null,r=A.hS(s,s,B.f,s,s,s,0,s,s,B.x,s,s,B.Jq,s,new A.bG(A.ao(12),B.p),s,s,s,s,s),q=this.a,p=q.e,o=p?s:q.gaet(),n=A.cp(A.v6(!1,p?B.XO:B.a3I,s,s,s,s,s,s,o,s,r),52,s)
+$2(a,b){var s=null,r=A.hS(s,s,B.f,s,s,s,0,s,s,B.x,s,s,B.Jq,s,new A.bG(A.ao(12),B.p),s,s,s,s,s),q=this.a,p=q.e,o=p?s:q.gaet(),n=A.cp(A.v6(!1,p?B.XO:B.a3H,s,s,s,s,s,s,o,s,r),52,s)
 r=t.p
 if(b.b>=640)return A.bp(A.b([A.c8(q.OD(),1),B.b0,n],r),B.o,B.l,B.m,0)
 else return A.aT(A.b([q.OD(),B.W,A.cp(n,s,1/0)],r),B.d9,B.l,B.m)},
@@ -93949,13 +93949,13 @@ E(a){var s,r,q,p,o,n,m,l,k=null,j=A.bq(a,k,t.w).w,i=j.a.a,h=j.li(j.gb7().dF(0,1.
 if(i>=1100)s=34
 else s=i>=700?30:26
 r=i>=700?18:16
-q=A.aM(k,B.a3A,B.k,k,k,new A.aV(B.ci,k,k,A.ao(999),k,k,B.v),k,k,k,B.cR,k,k,k)
+q=A.aM(k,B.a3z,B.k,k,k,new A.aV(B.ci,k,k,A.ao(999),k,k,B.v),k,k,k,B.cR,k,k,k)
 p=A.ac("Choose Your Management Plan",k,k,k,k,A.bE(k,k,B.ar,k,k,k,k,k,k,k,k,s,k,k,B.V,k,1.2,!0,k,k,k,k,k,k,k,k),B.a_,k,k)
 o=A.ac("Flexible pricing plans designed to fit your property management needs. No hidden fees, ever.",k,k,k,k,A.bE(k,k,B.e3,k,k,k,k,k,k,k,k,r,k,k,k,k,1.45,!0,k,k,k,k,k,k,k,k),B.a_,k,k)
 n=A.e_(new A.aij(this))
 m=A.ac("Need a custom plan for multiple properties or special requirements?",k,k,k,k,A.bE(k,k,B.bk,k,k,k,k,k,k,k,k,14,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),B.a_,k,k)
 l=t.p
-return A.i7(A.aM(k,A.cw(new A.bM(B.cd,A.aT(A.b([q,B.W,p,B.Z,new A.aZ(B.cS,o,k),B.h5,n,B.d_,A.aT(A.b([m,B.bI,A.rZ(!1,B.a3n,k,k,k,k,k,k,this.c,k,k)],l),B.o,B.l,B.m)],l),B.o,B.l,B.m),k),k,k),B.k,B.f,k,k,k,k,k,B.de,k,k,k),h)}}
+return A.i7(A.aM(k,A.cw(new A.bM(B.cd,A.aT(A.b([q,B.W,p,B.Z,new A.aZ(B.cS,o,k),B.h5,n,B.d_,A.aT(A.b([m,B.bI,A.rZ(!1,B.a3m,k,k,k,k,k,k,this.c,k,k)],l),B.o,B.l,B.m)],l),B.o,B.l,B.m),k),k,k),B.k,B.f,k,k,k,k,k,B.de,k,k,k),h)}}
 A.aij.prototype={
 $2(a,b){var s,r=b.b
 if(r>=1100)s=3
@@ -93966,7 +93966,7 @@ break $label0$0}r=540
 break $label0$0}return A.Oj(new A.rT(s,18,18,r),new A.aii(this.a),3,B.cW,!0)},
 $S:61}
 A.aii.prototype={
-$2(a,b){var s=B.OG[b]
+$2(a,b){var s=B.OF[b]
 return new A.yz(s,this.a.c,null)},
 $S:613}
 A.yz.prototype={
@@ -93995,7 +93995,7 @@ $2(a,b){return B.b6},
 $S:109}
 A.axo.prototype={
 $2(a,b){var s=this.a.c.e[b]
-return A.aZf(A.bp(B.PE,B.y,B.l,B.m,0),s)},
+return A.aZf(A.bp(B.PD,B.y,B.l,B.m,0),s)},
 $S:614}
 A.y1.prototype={
 E(a){var s=null,r=this.c
@@ -94010,7 +94010,7 @@ if(n>=1100)s=34
 else s=n>=700?30:26
 r=n>=700?18:16
 q=t.p
-return A.i7(A.aM(p,A.cw(new A.bM(B.cd,A.aT(A.b([A.aM(p,B.a3K,B.k,p,p,new A.aV(B.ci,p,p,A.ao(999),p,p,B.v),p,p,p,B.cR,p,p,p),B.W,A.ac("Simple & Transparent Process",p,p,p,p,A.bE(p,p,B.ar,p,p,p,p,p,p,p,p,s,p,p,B.V,p,1.2,!0,p,p,p,p,p,p,p,p),B.a_,p,p),B.Z,new A.aZ(B.cS,A.ac("Getting started with Mirabella is easy. Follow our proven 6-step process to professional property management",p,p,p,p,A.bE(p,p,B.e3,p,p,p,p,p,p,p,p,r,p,p,p,p,1.45,!0,p,p,p,p,p,p,p,p),B.a_,p,p),p),B.bV,A.lk(B.nl,A.b([A.v7(B.LC,B.n0,new A.aip(this,a),A.hS(p,p,B.x,p,p,p,6,p,p,B.f,p,p,B.pu,p,new A.bG(A.ao(12),B.p),p,p,p,p,p)),A.aKB(B.M7,B.a3z,new A.aiq(this,a),A.aF6(p,p,p,p,p,p,p,p,p,B.x,p,p,B.pu,p,new A.bG(A.ao(12),B.p),B.dS,p,p,p,p))],q),12,12),B.h5,A.e_(new A.air(l)),B.dB,A.aYa(B.qk,B.a3d,new A.ais(this,a))],q),B.o,B.l,B.m),p),p,p),B.k,p,p,p,p,p,p,B.de,p,p,p),m)}}
+return A.i7(A.aM(p,A.cw(new A.bM(B.cd,A.aT(A.b([A.aM(p,B.a3J,B.k,p,p,new A.aV(B.ci,p,p,A.ao(999),p,p,B.v),p,p,p,B.cR,p,p,p),B.W,A.ac("Simple & Transparent Process",p,p,p,p,A.bE(p,p,B.ar,p,p,p,p,p,p,p,p,s,p,p,B.V,p,1.2,!0,p,p,p,p,p,p,p,p),B.a_,p,p),B.Z,new A.aZ(B.cS,A.ac("Getting started with Mirabella is easy. Follow our proven 6-step process to professional property management",p,p,p,p,A.bE(p,p,B.e3,p,p,p,p,p,p,p,p,r,p,p,p,p,1.45,!0,p,p,p,p,p,p,p,p),B.a_,p,p),p),B.bV,A.lk(B.nl,A.b([A.v7(B.LC,B.n0,new A.aip(this,a),A.hS(p,p,B.x,p,p,p,6,p,p,B.f,p,p,B.pu,p,new A.bG(A.ao(12),B.p),p,p,p,p,p)),A.aKB(B.M7,B.a3y,new A.aiq(this,a),A.aF6(p,p,p,p,p,p,p,p,p,B.x,p,p,B.pu,p,new A.bG(A.ao(12),B.p),B.dS,p,p,p,p))],q),12,12),B.h5,A.e_(new A.air(l)),B.dB,A.aYa(B.qk,B.a3c,new A.ais(this,a))],q),B.o,B.l,B.m),p),p,p),B.k,p,p,p,p,p,p,B.de,p,p,p),m)}}
 A.aip.prototype={
 $0(){return this.a.c.$0()},
 $S:0}
@@ -94027,7 +94027,7 @@ break $label0$0}r=270
 break $label0$0}return A.Oj(new A.rT(s,16,16,r+12),new A.aio(this.a),6,B.cW,!0)},
 $S:61}
 A.aio.prototype={
-$2(a,b){var s=B.P9[b]
+$2(a,b){var s=B.P8[b]
 return new A.yA(s.a,s.b,s.c,this.a[B.i.by(b,6)],null)},
 $S:616}
 A.ais.prototype={
@@ -94049,14 +94049,14 @@ break $label0$0}r=400
 break $label0$0}return A.Oj(new A.rT(s,16,16,r),new A.amn(this.a),8,B.cW,!0)},
 $S:61}
 A.amn.prototype={
-$2(a,b){var s=B.PT[b]
+$2(a,b){var s=B.PR[b]
 return new A.tS(this.a[B.i.by(b,8)],s.a,s.b,s.c,null)},
 $S:617}
 A.a_K.prototype={
 E(a){var s,r=null,q=A.bq(a,r,t.w).w.a.a
 if(q>=1100)s=34
 else s=q>=700?30:26
-return A.aT(A.b([A.aM(r,B.a3t,B.k,r,r,new A.aV(B.ci,r,r,A.ao(999),r,r,B.v),r,r,r,B.cR,r,r,r),B.W,A.ac("Comprehensive Property Management Solutions",r,r,r,r,A.bE(r,r,B.ar,r,r,r,r,r,r,r,r,s,r,r,B.V,r,1.2,!0,r,r,r,r,r,r,r,r),B.a_,r,r)],t.p),B.o,B.l,B.m)}}
+return A.aT(A.b([A.aM(r,B.a3r,B.k,r,r,new A.aV(B.ci,r,r,A.ao(999),r,r,B.v),r,r,r,B.cR,r,r,r),B.W,A.ac("Comprehensive Property Management Solutions",r,r,r,r,A.bE(r,r,B.ar,r,r,r,r,r,r,r,r,s,r,r,B.V,r,1.2,!0,r,r,r,r,r,r,r,r),B.a_,r,r)],t.p),B.o,B.l,B.m)}}
 A.tS.prototype={
 aa(){return new A.a_Z()}}
 A.a_Z.prototype={
@@ -94102,7 +94102,7 @@ else s=r>=740?2:1
 return A.lk(B.nl,A.ad4(4,new A.anh(this.a,(r-(s-1)*16)/s),!0,t.l7),16,16)},
 $S:120}
 A.anh.prototype={
-$1(a){var s=B.PC[a]
+$1(a){var s=B.PB[a]
 return A.cp(new A.a0n(this.a[B.i.by(a,4)],s.a,s.b,s.c,null),null,this.b)},
 $S:619}
 A.a0n.prototype={
@@ -94113,7 +94113,7 @@ E(a){var s,r,q=null,p=A.bq(a,q,t.w).w,o=p.a.a,n=p.li(p.gb7().dF(0,1.2)),m=A.b([B
 if(o>=1100)s=34
 else s=o>=700?30:26
 r=o>=700?18:16
-return A.i7(A.aM(q,A.cw(new A.bM(B.cd,A.aT(A.b([A.aM(q,B.a3F,B.k,q,q,new A.aV(B.ci,q,q,A.ao(999),q,q,B.v),q,q,q,B.cR,q,q,q),B.W,A.ac("What Sets Us Apart",q,q,q,q,A.bE(q,q,B.ar,q,q,q,q,q,q,q,q,s,q,q,B.V,q,1.2,!0,q,q,q,q,q,q,q,q),B.a_,q,q),B.Z,new A.aZ(B.cS,A.ac("Experience the difference with our professional, transparent, and client-focused approach to property management",q,q,q,q,A.bE(q,q,B.e3,q,q,q,q,q,q,q,q,r,q,q,q,q,1.45,!0,q,q,q,q,q,q,q,q),B.a_,q,q),q),B.h5,A.e_(new A.apm(m))],t.p),B.o,B.l,B.m),q),q,q),B.k,q,q,B.E2,q,q,q,B.de,q,q,q),n)}}
+return A.i7(A.aM(q,A.cw(new A.bM(B.cd,A.aT(A.b([A.aM(q,B.a3E,B.k,q,q,new A.aV(B.ci,q,q,A.ao(999),q,q,B.v),q,q,q,B.cR,q,q,q),B.W,A.ac("What Sets Us Apart",q,q,q,q,A.bE(q,q,B.ar,q,q,q,q,q,q,q,q,s,q,q,B.V,q,1.2,!0,q,q,q,q,q,q,q,q),B.a_,q,q),B.Z,new A.aZ(B.cS,A.ac("Experience the difference with our professional, transparent, and client-focused approach to property management",q,q,q,q,A.bE(q,q,B.e3,q,q,q,q,q,q,q,q,r,q,q,q,q,1.45,!0,q,q,q,q,q,q,q,q),B.a_,q,q),q),B.h5,A.e_(new A.apm(m))],t.p),B.o,B.l,B.m),q),q,q),B.k,q,q,B.E2,q,q,q,B.de,q,q,q),n)}}
 A.apm.prototype={
 $2(a,b){var s,r,q,p=b.b
 if(p>=1100)s=4
@@ -94166,7 +94166,7 @@ E(a){var s,r,q=null,p=A.bq(a,q,t.w).w.a.a
 if(p>900)s=40
 else s=p>600?34:28
 r=t.p
-return A.Er(q,q,A.oE(!0,A.wY(A.aT(A.b([A.aM(q,A.cw(new A.bM(B.jO,A.aT(A.b([A.ac("Privacy Policy",q,q,q,q,A.bE(q,q,B.f,q,q,q,q,q,q,q,q,s,q,q,B.V,q,1.1,!0,q,q,q,q,q,q,q,q),q,q,q),B.Z,B.a3r,B.Z,B.n1],r),B.y,B.l,B.m),q),q,q),B.k,q,q,B.dT,q,q,q,B.hX,q,q,1/0),new A.aZ(B.hW,A.cw(new A.bM(B.eT,A.aT(B.PS,B.y,B.l,B.m),q),q,q),q)],r),B.o,B.l,B.m),q,B.a3,q,q,q,q,B.ad),B.a4,!0))}}
+return A.Er(q,q,A.oE(!0,A.wY(A.aT(A.b([A.aM(q,A.cw(new A.bM(B.jO,A.aT(A.b([A.ac("Privacy Policy",q,q,q,q,A.bE(q,q,B.f,q,q,q,q,q,q,q,q,s,q,q,B.V,q,1.1,!0,q,q,q,q,q,q,q,q),q,q,q),B.Z,B.a3l,B.Z,B.n1],r),B.y,B.l,B.m),q),q,q),B.k,q,q,B.dT,q,q,q,B.hX,q,q,1/0),new A.aZ(B.hW,A.cw(new A.bM(B.eT,A.aT(B.Q6,B.y,B.l,B.m),q),q,q),q)],r),B.o,B.l,B.m),q,B.a3,q,q,q,q,B.ad),B.a4,!0))}}
 A.fv.prototype={
 E(a){var s,r,q,p,o=this,n=null,m=A.T(a).ok.r,l=m==null?n:m.HM(B.ar,B.V)
 m=t.p
@@ -94192,7 +94192,7 @@ E(a){var s,r,q=null,p=A.bq(a,q,t.w).w.a.a
 if(p>900)s=40
 else s=p>600?34:28
 r=t.p
-return A.Er(q,q,A.oE(!0,A.wY(A.aT(A.b([A.aM(q,A.cw(new A.bM(B.jO,A.aT(A.b([A.ac("Terms of Service",q,q,q,q,A.bE(q,q,B.f,q,q,q,q,q,q,q,q,s,q,q,B.V,q,1.1,!0,q,q,q,q,q,q,q,q),q,q,q),B.Z,B.a3a,B.Z,B.n1],r),B.y,B.l,B.m),q),q,q),B.k,q,q,B.dT,q,q,q,B.hX,q,q,1/0),new A.aZ(B.hW,A.cw(new A.bM(B.eT,A.aT(B.O0,B.y,B.l,B.m),q),q,q),q)],r),B.o,B.l,B.m),q,B.a3,q,q,q,q,B.ad),B.a4,!0))}}
+return A.Er(q,q,A.oE(!0,A.wY(A.aT(A.b([A.aM(q,A.cw(new A.bM(B.jO,A.aT(A.b([A.ac("Terms of Service",q,q,q,q,A.bE(q,q,B.f,q,q,q,q,q,q,q,q,s,q,q,B.V,q,1.1,!0,q,q,q,q,q,q,q,q),q,q,q),B.Z,B.a3x,B.Z,B.n1],r),B.y,B.l,B.m),q),q,q),B.k,q,q,B.dT,q,q,q,B.hX,q,q,1/0),new A.aZ(B.hW,A.cw(new A.bM(B.eT,A.aT(B.Q4,B.y,B.l,B.m),q),q,q),q)],r),B.o,B.l,B.m),q,B.a3,q,q,q,q,B.ad),B.a4,!0))}}
 A.eX.prototype={
 E(a){var s,r,q,p=null,o=A.T(a).ok.r,n=o==null?p:o.HM(B.ar,B.V)
 o=t.p
@@ -94213,7 +94213,7 @@ E(a){var s=null
 return new A.aZ(B.kD,A.bp(A.b([B.m7,B.cZ,A.c8(A.ac(this.c,s,s,s,s,B.d0,s,s,s),1)],t.p),B.y,B.l,B.m,0),s)}}
 A.Sm.prototype={
 E(a){var s=null
-return A.aM(s,A.cw(new A.bM(B.cd,A.aT(A.b([A.e_(new A.amJ(this)),B.dB,B.pb,new A.aZ(B.Jc,A.e_(new A.amK()),s),B.pb,B.h4,A.e_(new A.amL(this)),B.b6,B.a3G],t.p),B.o,B.l,B.m),s),s,s),B.k,B.Hw,s,s,s,s,s,B.de,s,s,s)}}
+return A.aM(s,A.cw(new A.bM(B.cd,A.aT(A.b([A.e_(new A.amJ(this)),B.dB,B.pb,new A.aZ(B.Jc,A.e_(new A.amK()),s),B.pb,B.h4,A.e_(new A.amL(this)),B.b6,B.a3F],t.p),B.o,B.l,B.m),s),s,s),B.k,B.Hw,s,s,s,s,s,B.de,s,s,s)}}
 A.amJ.prototype={
 $2(a,b){var s,r,q=null,p=b.b
 if(p>=1100)s=4
@@ -94252,7 +94252,7 @@ return A.J($async$$0,r)},
 $S:9}
 A.UO.prototype={
 E(a){var s=null,r=t.p
-return A.aT(A.b([A.bp(A.b([A.aM(s,B.LK,B.k,s,s,B.E3,s,s,s,B.hV,s,s,s),B.cZ,B.K3],r),B.o,B.l,B.ab,0),B.eE,B.a3q,B.eE],r),B.y,B.l,B.m)}}
+return A.aT(A.b([A.bp(A.b([A.aM(s,B.LK,B.k,s,s,B.E3,s,s,s,B.hV,s,s,s),B.cZ,B.K3],r),B.o,B.l,B.ab,0),B.eE,B.a3p,B.eE],r),B.y,B.l,B.m)}}
 A.Zt.prototype={
 E(a){var s=this
 return new A.HQ("Quick Links",A.b([new A.it("Home",new A.axq(s)),new A.it("Services",new A.axr(s)),new A.it("Pricing",new A.axs(s)),new A.it("Contact",new A.axt(s))],t.aB),null)}}
@@ -94297,7 +94297,7 @@ $S:628}
 A.it.prototype={}
 A.V8.prototype={
 E(a){var s=null,r=t.p
-return A.aT(A.b([B.a3y,B.b6,A.aFV(B.a3N,B.L4),B.Z,A.aFV(A.lk(B.br,A.b([A.iP(!1,s,!0,B.a3D,s,!0,s,s,s,s,s,s,s,s,new A.arH(),s,s,s,s)],r),4,10),B.ii),B.Z,A.aFV(A.lk(B.br,B.Q4,4,10),B.ih)],r),B.y,B.l,B.m)}}
+return A.aT(A.b([B.a3w,B.b6,A.aFV(B.a3M,B.L4),B.Z,A.aFV(A.lk(B.br,A.b([A.iP(!1,s,!0,B.a3C,s,!0,s,s,s,s,s,s,s,s,new A.arH(),s,s,s,s)],r),4,10),B.ii),B.Z,A.aFV(A.lk(B.br,B.Q2,4,10),B.ih)],r),B.y,B.l,B.m)}}
 A.arH.prototype={
 $0(){return A.L2("tel:+923300492037",B.MY)},
 $S:0}
@@ -94340,7 +94340,7 @@ if(n.a.e)s.push(A.c8(new A.HS(new A.aub(n),r,!0,o),1))
 else s.push(new A.HS(new A.auc(n),r,!1,o))
 s.push(B.aU)
 if(!n.a.e){r=A.b([],l)
-for(q=0;q<4;++q){p=B.Pc[q]
+for(q=0;q<4;++q){p=B.Pb[q]
 r.push(new A.X2(p.a,new A.aud(n,p),k,j,o))}r.push(A.cp(o,o,k?6:10))
 r.push(new A.Zo("Get Started",new A.aue(n),j,o))
 B.b.O(s,A.b([B.mK,new A.dp(1,B.aY,new A.dO(B.dQ,o,o,new A.O_(B.E8,A.bp(r,B.o,B.l,B.m,0),o),o),o)],l))}n=n.a
@@ -94361,7 +94361,7 @@ $0(){return this.a.a.BG("contact")},
 $S:0}
 A.HS.prototype={
 E(a){var s=null,r=A.aJx("assets/logo.png",s,B.E7,36),q=A.b([A.dz(!1,B.D,!0,s,A.iP(!1,A.ao(10),!0,new A.bM(B.DO,new A.MK(B.JD,r,s),s),s,!0,s,s,s,s,s,s,s,s,this.c,s,s,s,s),B.k,B.G,0,s,s,s,s,s,B.aw),B.cZ],t.p),p=this.d
-if(this.e)q.push(A.c8(A.dz(!1,B.D,!0,s,A.iP(!1,A.ao(8),!0,B.Tl,s,!0,s,s,s,s,s,s,s,s,p,s,s,s,s),B.k,B.G,0,s,s,s,s,s,B.aw),1))
+if(this.e)q.push(A.c8(A.dz(!1,B.D,!0,s,A.iP(!1,A.ao(8),!0,B.Tk,s,!0,s,s,s,s,s,s,s,s,p,s,s,s,s),B.k,B.G,0,s,s,s,s,s,B.aw),1))
 else q.push(A.dz(!1,B.D,!0,s,A.iP(!1,A.ao(8),!0,B.Th,s,!0,s,s,s,s,s,s,s,s,p,s,s,s,s),B.k,B.G,0,s,s,s,s,s,B.aw))
 return A.bp(q,B.o,B.l,B.ab,0)}}
 A.X2.prototype={
@@ -97771,8 +97771,8 @@ B.ce=new A.Mb(1,"circle")
 B.E1=new A.aV(null,null,null,null,null,B.ej,B.ce)
 B.o4=new A.aV(null,null,null,null,null,B.ej,B.v)
 B.oV=new A.r(1,0.9372549019607843,0.9647058823529412,1,B.e)
-B.PQ=s([B.oV,B.f],t.t_)
-B.N1=new A.i4(B.bY,B.eS,B.bq,B.PQ,null,null)
+B.PP=s([B.oV,B.f],t.t_)
+B.N1=new A.i4(B.bY,B.eS,B.bq,B.PP,null,null)
 B.E2=new A.aV(null,null,null,null,null,B.N1,B.v)
 B.iJ=new A.aN(10,10)
 B.DF=new A.cE(B.iJ,B.iJ,B.iJ,B.iJ)
@@ -97780,8 +97780,8 @@ B.E3=new A.aV(null,null,null,B.DF,null,B.ej,B.v)
 B.qv=new A.i4(B.ca,B.dQ,B.bq,B.qP,null,null)
 B.dT=new A.aV(null,null,null,null,null,B.qv,B.v)
 B.k7=new A.r(1,0.9725490196078431,0.9803921568627451,0.9882352941176471,B.e)
-B.OD=s([B.k7,B.oV],t.t_)
-B.N3=new A.i4(B.bY,B.eS,B.bq,B.OD,null,null)
+B.OC=s([B.k7,B.oV],t.t_)
+B.N3=new A.i4(B.bY,B.eS,B.bq,B.OC,null,null)
 B.E4=new A.aV(null,null,null,null,null,B.N3,B.v)
 B.iK=new A.aN(12,12)
 B.nX=new A.cE(B.iK,B.iK,B.iK,B.iK)
@@ -97792,8 +97792,8 @@ B.lA=s([B.Es],t.V)
 B.E5=new A.aV(null,null,null,B.nX,B.lA,B.ej,B.v)
 B.ar=new A.r(1,0.06666666666666667,0.09411764705882353,0.15294117647058825,B.e)
 B.kk=new A.r(1,0.12156862745098039,0.1607843137254902,0.21568627450980393,B.e)
-B.Q_=s([B.ar,B.kk],t.t_)
-B.N0=new A.i4(B.bY,B.eS,B.bq,B.Q_,null,null)
+B.PY=s([B.ar,B.kk],t.t_)
+B.N0=new A.i4(B.bY,B.eS,B.bq,B.PY,null,null)
 B.E6=new A.aV(null,null,null,null,null,B.N0,B.v)
 B.E7=new A.A3(1,"contain")
 B.o5=new A.A3(2,"cover")
@@ -98034,7 +98034,7 @@ B.FN=new A.aoU()
 B.aH=new A.ap0()
 B.d7=new A.ap2()
 B.eL=new A.TL(0,0,0,0)
-B.Pp=s([],A.aj("A<a77>"))
+B.Po=s([],A.aj("A<a77>"))
 B.a7V=new A.ap8()
 B.bo={}
 B.wO=new A.cc(B.bo,[],t.li)
@@ -98566,13 +98566,13 @@ B.b8=new A.ap6(1,"down")
 B.V=new A.iL(7)
 B.a1A=new A.k(!0,B.f,null,null,null,null,20,B.V,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.B=new A.xk(2,"ellipsis")
-B.a3H=new A.b1("Mirabella",null,B.a1A,null,null,null,B.B,null,null,null,null)
+B.a3G=new A.b1("Mirabella",null,B.a1A,null,null,null,B.B,null,null,null,null)
 B.eF=new A.cA(null,2,null,null)
 B.GD=new A.r(1,0.5411764705882353,0.5803921568627451,0.6823529411764706,B.e)
 B.a1E=new A.k(!0,B.GD,null,null,null,null,11,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3f=new A.b1("Estate Management Services",null,B.a1E,null,null,null,B.B,null,null,null,null)
-B.Ol=s([B.a3H,B.eF,B.a3f],t.p)
-B.HP=new A.kr(B.ad,B.l,B.m,B.y,null,B.b8,null,0,B.Ol,null)
+B.a3e=new A.b1("Estate Management Services",null,B.a1E,null,null,null,B.B,null,null,null,null)
+B.Ok=s([B.a3G,B.eF,B.a3e],t.p)
+B.HP=new A.kr(B.ad,B.l,B.m,B.y,null,B.b8,null,0,B.Ok,null)
 B.K3=new A.dp(1,B.aY,B.HP,null)
 B.K6=new A.BH(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.pX=new A.BI(0,"Start")
@@ -98814,8 +98814,8 @@ B.lu=new A.vI(3,"externalApplication")
 B.qt=new A.CA(0,"opportunity")
 B.lv=new A.CA(2,"mandatory")
 B.qu=new A.CA(3,"endOfText")
-B.P0=s([B.hG,B.k_],t.t_)
-B.N2=new A.i4(B.ca,B.dQ,B.bq,B.P0,null,null)
+B.P_=s([B.hG,B.k_],t.t_)
+B.N2=new A.i4(B.ca,B.dQ,B.bq,B.P_,null,null)
 B.N4=new A.vK(B.eU,t.wO)
 B.N5=new A.Pf(0,"leading")
 B.N6=new A.Pf(1,"trailing")
@@ -98833,20 +98833,20 @@ B.Nf=s([B.a7o,B.LJ],t.p)
 B.qy=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
 B.Ni=s(["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],t.ee)
 B.NH=s([4,9,14,19],t.t)
-B.PW=s([137,80,78,71,13,10,26,10],t.Z)
+B.PU=s([137,80,78,71,13,10,26,10],t.Z)
 B.Mf=new A.nV(0,"png")
 B.Mn=new A.kI(B.Mf,!1,0,"png")
-B.Md=new A.m2(B.PW,B.Mn,0,"png")
-B.PY=s([71,73,70,56,55,97],t.Z)
-B.Mc=new A.m2(B.PY,B.ij,1,"gif87a")
-B.P3=s([71,73,70,56,57,97],t.Z)
-B.Mb=new A.m2(B.P3,B.ij,2,"gif89a")
+B.Md=new A.m2(B.PU,B.Mn,0,"png")
+B.PW=s([71,73,70,56,55,97],t.Z)
+B.Mc=new A.m2(B.PW,B.ij,1,"gif87a")
+B.P2=s([71,73,70,56,57,97],t.Z)
+B.Mb=new A.m2(B.P2,B.ij,2,"gif89a")
 B.Ng=s([255,216,255],t.Z)
 B.Mg=new A.nV(2,"jpeg")
 B.Mr=new A.kI(B.Mg,!1,3,"jpeg")
 B.Me=new A.m2(B.Ng,B.Mr,3,"jpeg")
-B.O5=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
-B.Ma=new A.m2(B.O5,B.qn,4,"webp")
+B.O4=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
+B.Ma=new A.m2(B.O4,B.qn,4,"webp")
 B.NY=s([66,77],t.Z)
 B.Mh=new A.nV(4,"bmp")
 B.Mp=new A.kI(B.Mh,!1,6,"bmp")
@@ -98865,25 +98865,6 @@ B.a5T=new A.k1("Transparent Reporting","Detailed monthly financial reports and p
 B.a5Q=new A.k1("Market Expertise","Deep understanding of local real estate market trends and competitive rental rates.")
 B.a5R=new A.k1("Customer First","Dedicated account managers and personalized service tailored to your specific needs.")
 B.O_=s([B.a5P,B.a5S,B.a5U,B.a5V,B.a5O,B.a5T,B.a5Q,B.a5R],A.aj("A<k1>"))
-B.Vs=new A.eX("Agreement to Terms","By accessing or using our website and services, you agree to be bound by these Terms of Service and all applicable laws. If you do not agree, please discontinue using the site and services.",null,null)
-B.VQ=new A.eX("Who We Are","\u201cMirabella\u201d, \u201cwe\u201d, \u201cus\u201d, and \u201cour\u201d refer to Mirabella Estate Management Services, a property management company serving Islamabad and nearby areas.",null,null)
-B.Vl=new A.eX("Eligibility","You must be at least 18 years old and capable of entering into a legally binding contract to use our services.",null,null)
-B.Nc=s(["Provide accurate, current, and complete information.","Maintain the security of your account credentials.","Notify us promptly of any unauthorized access.","Accept responsibility for all activities under your account."],t.s)
-B.VM=new A.eX("Accounts & Your Responsibilities",null,B.Nc,null)
-B.PR=s(["Do not misuse the website, interfere with its operation, or attempt to access non-public areas.","Do not upload or transmit harmful code, spam, or content that infringes third-party rights.","Do not use the services for unlawful, fraudulent, or misleading purposes.","Respect other users, our team, and applicable local laws and regulations."],t.s)
-B.VB=new A.eX("Acceptable Use",null,B.PR,null)
-B.Vr=new A.eX("Fees & Payments","Where applicable, fees for property management or related services will be specified in your proposal or service agreement. Taxes may apply. Late payments may incur additional charges as stated in your agreement.",null,null)
-B.VH=new A.eX("Property Listings & Content","By submitting property details, photos, or other materials, you grant Mirabella a non-exclusive, worldwide licence to use, reproduce, and display such content solely to provide and promote our services. You warrant that you have the rights to share the content and that it does not infringe third-party rights.",null,null)
-B.Vm=new A.eX("Intellectual Property","All site content, trademarks, logos, and software are the property of Mirabella or its licensors and are protected by applicable laws. You may not copy, modify, or distribute any portion of the site without prior written consent.",null,null)
-B.VG=new A.eX("Disclaimer of Warranties","The website and services are provided \u201cas is\u201d and \u201cas available\u201d. We disclaim all warranties of any kind, whether express or implied, including merchantability, fitness for a particular purpose, and non-infringement.",null,null)
-B.Vx=new A.eX("Limitation of Liability","To the fullest extent permitted by law, Mirabella will not be liable for indirect, incidental, special, consequential, or punitive damages, or any loss of profits or data, arising from your use of the site or services.",null,null)
-B.VC=new A.eX("Indemnification","You agree to defend, indemnify, and hold harmless Mirabella and its officers, employees, and agents from any claims, liabilities, damages, losses, and expenses (including legal fees) arising out of your use of the site, your content, or your violation of these terms.",null,null)
-B.VK=new A.eX("Termination","We may suspend or terminate access to the website or services at any time, with or without notice, for conduct that we believe violates these terms or is harmful to other users, us, or third parties.",null,null)
-B.VD=new A.eX("Governing Law & Disputes","These terms are governed by the laws of Pakistan. Any disputes will be subject to the exclusive jurisdiction of the courts located in Islamabad, Pakistan.",null,null)
-B.VN=new A.eX("Changes to These Terms","We may revise these terms from time to time. Continued use of the website or services after changes become effective constitutes acceptance of the revised terms.",null,null)
-B.qE=s([u.B,"Phone: +9233300492037","Office: E-18 Gulshana Sehat Mirabella Complex, Islamabad"],t.s)
-B.Vw=new A.eX("Contact Us","If you have questions about these Terms of Service, please reach out.",B.qE,null)
-B.O0=s([B.Vs,B.VQ,B.Vl,B.VM,B.VB,B.Vr,B.VH,B.Vm,B.VG,B.Vx,B.VC,B.VK,B.VD,B.VN,B.Vw],t.p)
 B.a6E=new A.hE(0,1)
 B.a6J=new A.hE(0.5,1)
 B.a6M=new A.hE(0.5375,0.75)
@@ -98895,25 +98876,25 @@ B.a6N=new A.hE(0.8875,0.25)
 B.a6L=new A.hE(0.925,0.5)
 B.a6F=new A.hE(0.9625,0.75)
 B.a6G=new A.hE(1,1)
-B.O6=s([B.a6E,B.a6J,B.a6M,B.a6O,B.a6K,B.a6I,B.a6H,B.a6N,B.a6L,B.a6F,B.a6G],A.aj("A<hE>"))
+B.O5=s([B.a6E,B.a6J,B.a6M,B.a6O,B.a6K,B.a6I,B.a6H,B.a6N,B.a6L,B.a6F,B.a6G],A.aj("A<hE>"))
 B.h7=new A.mI(0,"left")
 B.mO=new A.mI(1,"right")
 B.ja=new A.mI(3,"justify")
 B.b2=new A.mI(4,"start")
 B.mP=new A.mI(5,"end")
-B.O7=s([B.h7,B.mO,B.a_,B.ja,B.b2,B.mP],A.aj("A<mI>"))
-B.Os=s([2,1.13276676],t.n)
+B.O6=s([B.h7,B.mO,B.a_,B.ja,B.b2,B.mP],A.aj("A<mI>"))
+B.Or=s([2,1.13276676],t.n)
 B.Nl=s([2.18349805,1.20311921],t.n)
-B.PF=s([2.33888662,1.28698796],t.n)
-B.PI=s([2.48660575,1.36351941],t.n)
-B.Oe=s([2.62226596,1.44717976],t.n)
-B.Ok=s([2.7514899,1.53385819],t.n)
-B.P_=s([3.36298265,1.98288283],t.n)
-B.Ow=s([4.08649929,2.23811846],t.n)
-B.OR=s([4.85481134,2.47563463],t.n)
-B.Of=s([5.62945551,2.72948597],t.n)
-B.Ot=s([6.43023796,2.98020421],t.n)
-B.qA=s([B.Os,B.Nl,B.PF,B.PI,B.Oe,B.Ok,B.P_,B.Ow,B.OR,B.Of,B.Ot],t.zg)
+B.PE=s([2.33888662,1.28698796],t.n)
+B.PH=s([2.48660575,1.36351941],t.n)
+B.Od=s([2.62226596,1.44717976],t.n)
+B.Oj=s([2.7514899,1.53385819],t.n)
+B.OZ=s([3.36298265,1.98288283],t.n)
+B.Ov=s([4.08649929,2.23811846],t.n)
+B.OQ=s([4.85481134,2.47563463],t.n)
+B.Oe=s([5.62945551,2.72948597],t.n)
+B.Os=s([6.43023796,2.98020421],t.n)
+B.qA=s([B.Or,B.Nl,B.PE,B.PH,B.Od,B.Oj,B.OZ,B.Ov,B.OQ,B.Oe,B.Os],t.zg)
 B.Kz=new A.ay(58502,"MaterialIcons",!1)
 B.Ls=new A.bn(B.Kz,null,null,null,null)
 B.YH=new A.rX("People",B.Ls,null)
@@ -98923,14 +98904,14 @@ B.LM=new A.bn(B.lp,null,null,null,null)
 B.YI=new A.rX("Newsletters",B.LM,null)
 B.LD=new A.bn(B.ln,null,null,null,null)
 B.YJ=new A.rX("Bulk Import",B.LD,null)
-B.Ob=s([B.YH,B.YG,B.YI,B.YJ],t.p)
-B.Oc=s([B.jJ,B.jL],A.aj("A<zR>"))
+B.Oa=s([B.YH,B.YG,B.YI,B.YJ],t.p)
+B.Ob=s([B.jJ,B.jL],A.aj("A<zR>"))
 B.a7B=new A.yQ("500+","Properties Managed",null)
 B.CK=new A.W0(null)
 B.a7D=new A.yQ("4.8/5","Average Rating",null)
 B.a7C=new A.yQ("10+ yrs","Experience",null)
-B.Od=s([B.a7B,B.CK,B.a7D,B.CK,B.a7C],t.p)
-B.Oh=s(["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],t.ee)
+B.Oc=s([B.a7B,B.CK,B.a7D,B.CK,B.a7C],t.p)
+B.Og=s(["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],t.ee)
 B.aP=new A.f0(0,"icon")
 B.b3=new A.f0(1,"input")
 B.am=new A.f0(2,"label")
@@ -98942,7 +98923,7 @@ B.aW=new A.f0(7,"suffixIcon")
 B.bX=new A.f0(8,"helperError")
 B.c9=new A.f0(9,"counter")
 B.cA=new A.f0(10,"container")
-B.Ou=s([B.aP,B.b3,B.am,B.b9,B.ba,B.bb,B.aj,B.aW,B.bX,B.c9,B.cA],A.aj("A<f0>"))
+B.Ot=s([B.aP,B.b3,B.am,B.b9,B.ba,B.bb,B.aj,B.aW,B.bX,B.c9,B.cA],A.aj("A<f0>"))
 B.Qb=new A.o9("en","US")
 B.qB=s([B.Qb],t.ss)
 B.a7I=new A.JW(B.ii,"+9233300492037",null)
@@ -98954,7 +98935,7 @@ B.mK=new A.SL(null)
 B.mZ=new A.k(!0,B.f,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a3S=new A.b1("Mon - Sat: 9:00 AM - 6:00 PM",null,B.mZ,null,null,null,B.B,null,null,null,null)
 B.K4=new A.dp(1,B.aY,B.a3S,null)
-B.Ov=s([B.K5,B.b0,B.K2,B.mK,B.K4],t.p)
+B.Ou=s([B.K5,B.b0,B.K2,B.mK,B.K4],t.p)
 B.a6k=new A.mW(0,0)
 B.a6p=new A.mW(1,0.05)
 B.a6n=new A.mW(3,0.08)
@@ -98972,50 +98953,50 @@ B.a6C=new A.mZ(B.ii,"Phone","Call us for immediate assistance","+9233300492037",
 B.a6B=new A.mZ(B.ih,"Email","Send us your queries",u.f,"mailto:info@mirabellaestatemanagementservices.com",null)
 B.qd=new A.ay(63620,"MaterialIcons",!1)
 B.a6D=new A.mZ(B.qd,"Office","Visit us at our office","E-18 Gulshana Sehat Mirabella Complex, Islamabad","https://www.google.com/maps/place/Mirabella+Restaurant+%26+Hotel/@33.6356712,72.8460588,17z/data=!3m1!4b1!4m6!3m5!1s0x38df99de5a1647f9:0x38e47923f53177ff!8m2!3d33.6356712!4d72.8486391!16s%2Fg%2F11n34fmv_d?entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D",null)
-B.OF=s([B.a6C,B.a6B,B.a6D],A.aj("A<mZ>"))
-B.Om=s(["Tenant Screening & Placement","Rent Collection","Monthly Financial Reports","Maintenance Coordination","24/7 Emergency Support","Online Owner Portal"],t.s)
-B.Ug=new A.wn("Basic","8%","Perfect for single property owners",B.Om,!1)
-B.On=s(["Everything in Basic","Priority Tenant Placement","Bi-annual Property Inspections","Legal Document Management","Dedicated Account Manager","Annual Market Analysis"],t.s)
-B.Uf=new A.wn("Professional","9%","Ideal for multiple properties",B.On,!0)
-B.Oj=s(["Everything in Professional","Quarterly Property Inspections","Investment Advisory","Tax Document Preparation","Portfolio Management","Strategic Planning Sessions"],t.s)
-B.Ue=new A.wn("Premium","10%","For serious investors",B.Oj,!1)
-B.OG=s([B.Ug,B.Uf,B.Ue],A.aj("A<wn>"))
-B.OK=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
+B.OE=s([B.a6C,B.a6B,B.a6D],A.aj("A<mZ>"))
+B.Ol=s(["Tenant Screening & Placement","Rent Collection","Monthly Financial Reports","Maintenance Coordination","24/7 Emergency Support","Online Owner Portal"],t.s)
+B.Ug=new A.wn("Basic","8%","Perfect for single property owners",B.Ol,!1)
+B.Om=s(["Everything in Basic","Priority Tenant Placement","Bi-annual Property Inspections","Legal Document Management","Dedicated Account Manager","Annual Market Analysis"],t.s)
+B.Uf=new A.wn("Professional","9%","Ideal for multiple properties",B.Om,!0)
+B.Oi=s(["Everything in Professional","Quarterly Property Inspections","Investment Advisory","Tax Document Preparation","Portfolio Management","Strategic Planning Sessions"],t.s)
+B.Ue=new A.wn("Premium","10%","For serious investors",B.Oi,!1)
+B.OF=s([B.Ug,B.Uf,B.Ue],A.aj("A<wn>"))
+B.OJ=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.Dx=new A.M5(2,"outer")
 B.oC=new A.r(0.09803921568627451,0,0,0,B.e)
 B.j=new A.j(0,0)
 B.Eo=new A.bs(0.2,B.Dx,B.oC,B.j,11)
-B.ON=s([B.Eo],t.V)
+B.OM=s([B.Eo],t.V)
 B.Yo=new A.Fj(0,"left")
 B.Yp=new A.Fj(1,"right")
-B.OQ=s([B.Yo,B.Yp],A.aj("A<Fj>"))
+B.OP=s([B.Yo,B.Yp],A.aj("A<Fj>"))
 B.ax=new A.Fy(0,"upstream")
-B.OS=s([B.ax,B.n],A.aj("A<Fy>"))
+B.OR=s([B.ax,B.n],A.aj("A<Fy>"))
 B.b7=new A.t_(0,"rtl")
 B.av=new A.t_(1,"ltr")
 B.lw=s([B.b7,B.av],A.aj("A<t_>"))
 B.Z5=new A.lb("Commercial Plots Launched\n",null,B.bB,null,null)
 B.a1P=new A.k(!0,B.x,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Z4=new A.lb("Gulshan-e-Sehat E-18",null,B.bB,null,B.a1P)
-B.OT=s([B.Z5,B.Z4],t.VO)
+B.OS=s([B.Z5,B.Z4],t.VO)
 B.qF=s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],t.ee)
 B.cC=new A.k4(0,"leading")
 B.bL=new A.k4(1,"title")
 B.cD=new A.k4(2,"subtitle")
 B.dN=new A.k4(3,"trailing")
-B.OZ=s([B.cC,B.bL,B.cD,B.dN],A.aj("A<k4>"))
+B.OY=s([B.cC,B.bL,B.cD,B.dN],A.aj("A<k4>"))
 B.G0=new A.pP(0,"auto")
 B.G1=new A.pP(1,"full")
 B.G2=new A.pP(2,"chromium")
-B.P2=s([B.G0,B.G1,B.G2,B.e_],A.aj("A<pP>"))
+B.P1=s([B.G0,B.G1,B.G2,B.e_],A.aj("A<pP>"))
 B.L1=new A.ay(983040,"MaterialIcons",!1)
 B.LY=new A.bn(B.L1,16,B.k5,null,null)
 B.aU=new A.cA(8,null,null,null)
 B.a0G=new A.k(!0,B.k5,null,null,null,null,12,B.ae,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3B=new A.b1("\ud83d\udd25 NEW LAUNCH - Limited Plots Available",null,B.a0G,null,null,null,null,null,null,null,null)
-B.P5=s([B.LY,B.aU,B.a3B],t.p)
+B.a3A=new A.b1("\ud83d\udd25 NEW LAUNCH - Limited Plots Available",null,B.a0G,null,null,null,null,null,null,null,null)
+B.P4=s([B.LY,B.aU,B.a3A],t.p)
 B.bx=new A.fW(1,"fuchsia")
-B.P6=s([B.ap,B.bx,B.L,B.by,B.b1,B.bz],A.aj("A<fW>"))
+B.P5=s([B.ap,B.bx,B.L,B.by,B.b1,B.bz],A.aj("A<fW>"))
 B.CG=new A.xQ(0,"topLeft")
 B.CJ=new A.xQ(3,"bottomRight")
 B.a6f=new A.mV(B.CG,B.CJ)
@@ -99024,20 +99005,20 @@ B.CH=new A.xQ(1,"topRight")
 B.CI=new A.xQ(2,"bottomLeft")
 B.a6g=new A.mV(B.CH,B.CI)
 B.a6h=new A.mV(B.CI,B.CH)
-B.P7=s([B.a6f,B.a6i,B.a6g,B.a6h],A.aj("A<mV>"))
+B.P6=s([B.a6f,B.a6i,B.a6g,B.a6h],A.aj("A<mV>"))
 B.Le=new A.ay(983697,"MaterialIcons",!1)
 B.M2=new A.bn(B.Le,48,B.x,null,null)
 B.Z=new A.cA(null,8,null,null)
 B.a0d=new A.k(!0,B.ar,null,null,null,null,null,B.bD,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3e=new A.b1("Commercial Plot",null,B.a0d,null,null,null,null,null,null,null,null)
-B.P8=s([B.M2,B.Z,B.a3e],t.p)
+B.a3d=new A.b1("Commercial Plot",null,B.a0d,null,null,null,null,null,null,null,null)
+B.P7=s([B.M2,B.Z,B.a3d],t.p)
 B.Uj=new A.mq("01","Initial Consultation","We meet to understand your property, goals, and management needs.")
 B.Ul=new A.mq("02","Property Assessment","Comprehensive evaluation of your property condition and market value.")
 B.Ui=new A.mq("03","Agreement & Onboarding","Sign management agreement and set up your property in our system.")
 B.Un=new A.mq("04","Marketing & Tenant Placement","Professional listing, showings, screening, and lease signing.")
 B.Uk=new A.mq("05","Ongoing Management","Regular maintenance, rent collection, and property oversight.")
 B.Um=new A.mq("06","Regular Reporting","Monthly financial statements and property condition updates.")
-B.P9=s([B.Uj,B.Ul,B.Ui,B.Un,B.Uk,B.Um],A.aj("A<mq>"))
+B.P8=s([B.Uj,B.Ul,B.Ui,B.Un,B.Uk,B.Um],A.aj("A<mq>"))
 B.UP=new A.am(0.01339448,0.05994973)
 B.UO=new A.am(0.13664115,0.13592082)
 B.UB=new A.am(0.24545546,0.14099516)
@@ -99057,23 +99038,23 @@ B.a7e=new A.tK("Home","home")
 B.a7h=new A.tK("Services","services")
 B.a7g=new A.tK("Process","process")
 B.a7f=new A.tK("Pricing","pricing")
-B.Pc=s([B.a7e,B.a7h,B.a7g,B.a7f],A.aj("A<tK>"))
-B.Pd=s([B.pc,B.pd,B.pe],A.aj("A<uX>"))
+B.Pb=s([B.a7e,B.a7h,B.a7g,B.a7f],A.aj("A<tK>"))
+B.Pc=s([B.pc,B.pd,B.pe],A.aj("A<uX>"))
 B.U1=new A.rg(0,"get")
 B.U2=new A.rg(1,"update")
 B.AA=new A.rg(2,"set")
 B.U3=new A.rg(3,"deleteType")
-B.Pf=s([B.U1,B.U2,B.AA,B.U3],A.aj("A<rg>"))
-B.Pg=s(["click","scroll"],t.s)
+B.Pe=s([B.U1,B.U2,B.AA,B.U3],A.aj("A<rg>"))
+B.Pf=s(["click","scroll"],t.s)
 B.EO=new A.nj()
 B.fR=new A.RX(1,"page")
 B.iT=new A.eF(B.az,B.fR)
-B.Pi=s([B.EO,B.iT],A.aj("A<b7>"))
+B.Ph=s([B.EO,B.iT],A.aj("A<b7>"))
 B.Lw=new A.bn(B.qf,null,B.f,null,null)
 B.cZ=new A.cA(10,null,null,null)
 B.a6w=new A.X7(null)
 B.JF=new A.lP(1,B.di,B.a6w,null)
-B.Pj=s([B.Lw,B.cZ,B.JF],t.p)
+B.Pi=s([B.Lw,B.cZ,B.JF],t.p)
 B.JN=new A.ju("What are your management fees?","Our management fees are competitive and transparent, typically ranging from 8-10% of monthly rent collected. We offer customized packages based on property type and services required. Contact us for a detailed quote.")
 B.JR=new A.ju("How do you screen tenants?","We conduct comprehensive screening including credit checks, employment verification, previous landlord references, criminal background checks, and income verification. Only qualified tenants who meet our strict criteria are approved.")
 B.JO=new A.ju("What areas do you serve?","We primarily serve Islamabad and Rawalpindi, including DHA, Bahria Town, E-11, F-7, G-13, and surrounding areas. Contact us to confirm if we serve your specific location.")
@@ -99082,26 +99063,26 @@ B.JL=new A.ju("Do you handle maintenance and repairs?","Yes, we coordinate all m
 B.JP=new A.ju("How do I receive my rental income?","Rent is collected from tenants and disbursed to property owners by the 5th of each month via bank transfer, along with a detailed financial statement.")
 B.JS=new A.ju("Can I terminate the management agreement?","Yes, our agreements include flexible termination clauses. Typically, 30-60 days notice is required, depending on the agreement terms.")
 B.JQ=new A.ju("What reports will I receive?","You'll receive monthly financial statements, annual tax documents, maintenance reports, property inspection reports, and can access real-time information through our owner portal.")
-B.Pk=s([B.JN,B.JR,B.JO,B.JM,B.JL,B.JP,B.JS,B.JQ],A.aj("A<ju>"))
+B.Pj=s([B.JN,B.JR,B.JO,B.JM,B.JL,B.JP,B.JS,B.JQ],A.aj("A<ju>"))
 B.lx=s(["email"],t.s)
-B.Pr=s([],t.QP)
+B.Pq=s([],t.QP)
 B.qI=s([],A.aj("A<b42>"))
-B.Pw=s([],t.D)
-B.Px=s([],t.fJ)
-B.Pv=s([],t.ER)
+B.Pv=s([],t.D)
+B.Pw=s([],t.fJ)
+B.Pu=s([],t.ER)
 B.a83=s([],t.ss)
 B.ip=s([],t.jl)
-B.Po=s([],t.wi)
-B.Pn=s([],A.aj("A<aKC<@>>"))
+B.Pn=s([],t.wi)
+B.Pm=s([],A.aj("A<aKC<@>>"))
 B.lz=s([],t.AO)
-B.Pq=s([],t.D1)
+B.Pp=s([],t.D1)
 B.ly=s([],t.QF)
-B.Pu=s([],t.Lx)
-B.Py=s([],t.fm)
+B.Pt=s([],t.Lx)
+B.Px=s([],t.fm)
 B.a84=s([],t.p)
-B.Pm=s([],t.t)
+B.Pl=s([],t.t)
 B.qH=s([],t.ee)
-B.Ps=s([],t.XS)
+B.Pr=s([],t.XS)
 B.ll=new A.iL(0)
 B.K8=new A.iL(1)
 B.K9=new A.iL(2)
@@ -99112,7 +99093,7 @@ B.Yh=new A.rV("500+","Properties Managed","Across Islamabad & Rawalpindi")
 B.Yi=new A.rV("1000+","Happy Clients","Property Owners & Tenants")
 B.Yg=new A.rV("10+","Years Experience","In Real Estate Management")
 B.Yf=new A.rV("4.9/5","Client Rating","Based on 500+ Reviews")
-B.PC=s([B.Yh,B.Yi,B.Yg,B.Yf],A.aj("A<rV>"))
+B.PB=s([B.Yh,B.Yi,B.Yg,B.Yf],A.aj("A<rV>"))
 B.po=new A.a5(0,2,0,0)
 B.HF=new A.r(1,0.9098039215686274,0.9607843137254902,0.9137254901960784,B.e)
 B.GC=new A.r(1,0.7843137254901961,0.9019607843137255,0.788235294117647,B.e)
@@ -99130,63 +99111,46 @@ B.LR=new A.bn(B.ig,18,B.du,null,null)
 B.Ti=new A.aZ(B.po,B.LR,null)
 B.a6q=new A.y1(null,null)
 B.JH=new A.lP(1,B.di,B.a6q,null)
-B.PE=s([B.Ti,B.aU,B.JH],t.p)
+B.PD=s([B.Ti,B.aU,B.JH],t.p)
 B.fK=new A.j(0,2)
 B.Em=new A.bs(0.75,B.N,B.oC,B.fK,1.5)
-B.PJ=s([B.Em],t.V)
+B.PI=s([B.Em],t.V)
 B.a6A=new A.is(B.qd,"Address",u.H,null)
 B.a6y=new A.is(B.ii,"Phone","+923300492037",null)
 B.a6z=new A.is(B.ih,"Email",u.f,null)
 B.qK=s([B.a6A,B.a6y,B.a6z],A.aj("A<is>"))
-B.Oo=s(["Home","home"],t.s)
-B.OP=s(["Services","services"],t.s)
-B.OI=s(["Process","process"],t.s)
-B.OH=s(["Pricing","pricing"],t.s)
-B.Og=s(["Contact","contact"],t.s)
-B.PL=s([B.Oo,B.OP,B.OI,B.OH,B.Og],A.aj("A<S<o>>"))
-B.VF=new A.fv("Introduction",'This Privacy Policy explains how Mirabella Estate Management Services ("Mirabella", "we", "us", or "our") handles personal information when you visit our website, contact us, or use our property management services in Islamabad and surrounding areas.',null,null,null)
-B.P4=s(["Contact details such as name, email, and phone number.","Property and preference details you share with our team.","Usage data (pages viewed, actions taken) to improve the website.","Device and technical data such as browser type and IP address.","Cookie identifiers and similar tracking technologies (see Cookie Policy)."],t.s)
-B.VJ=new A.fv("Information We Collect",null,B.P4,"We collect information directly from you, automatically when you use the site, and from trusted service providers (e.g., analytics).",null)
-B.Q0=s(["Provide, personalize, and improve our services.","Respond to enquiries and provide customer support.","Process applications, viewings, and tenancy administration.","Send service updates and relevant marketing (you can opt out anytime).","Conduct analytics, security monitoring, and fraud prevention.","Comply with legal, regulatory, and tax obligations."],t.s)
-B.Vj=new A.fv("How We Use Your Information",null,B.Q0,null,null)
-B.Vu=new A.fv("Legal Bases for Processing","Where required by law, we rely on one or more of the following legal bases: consent, performance of a contract, compliance with legal obligations, and our legitimate interests in operating and improving our services.",null,null,null)
-B.NQ=s(["Access, update, or correct your information.","Request deletion where applicable.","Object to or restrict certain processing activities.","Opt out of marketing at any time (unsubscribe link or contact us).","Manage cookies and analytics preferences (see Cookie Policy)."],t.s)
-B.VO=new A.fv("Your Privacy Choices & Rights",null,B.NQ,"To exercise your rights, please contact us using the details below. We may request verification to protect your account.",null)
-B.Vk=new A.fv("Cookies & Similar Technologies","We use cookies to keep the site secure, remember your preferences, and understand performance. Your browser provides controls to manage cookies. For more details, see our Cookie Policy.",null,null,null)
-B.VA=new A.fv("Data Retention","We keep personal information only as long as necessary to provide services, meet legal requirements, resolve disputes, and enforce our agreements.",null,null,null)
-B.VP=new A.fv("Security","We use administrative, technical, and physical safeguards to help protect personal information. No method of transmission or storage is completely secure; please use the site responsibly.",null,null,null)
-B.Vz=new A.fv("International Transfers","Your information may be processed and stored outside your country. Where required, we implement appropriate safeguards to protect your data.",null,null,null)
-B.Vv=new A.fv("Third-Party Links","Our website may contain links to third-party sites. Their privacy practices are not covered by this policy. Please review their policies before providing personal information.",null,null,null)
-B.Vq=new A.fv("Children's Privacy","Our services are not directed to children and we do not knowingly collect data from individuals under 18. If you believe a minor has provided data, please contact us for removal.",null,null,null)
-B.Vo=new A.fv("Changes to This Policy","We may update this policy periodically to reflect changes in practices, technology, or legal requirements. The \u201cLast updated\u201d date indicates the most recent revision.",null,null,null)
-B.Vp=new A.fv("Contact Us","Questions or requests about this policy? We\u2019re here to help.",B.qE,null,null)
-B.PS=s([B.VF,B.VJ,B.Vj,B.Vu,B.VO,B.Vk,B.VA,B.VP,B.Vz,B.Vv,B.Vq,B.Vo,B.Vp],t.p)
-B.OJ=s(["24/7 Emergency Response","Tenant Screening & Placement","Rent Collection & Financial Reports","Regular Property Inspections","Maintenance Coordination","Legal Compliance Management"],t.s)
-B.Wm=new A.jR("Residential Property Management","Complete end-to-end management of residential properties including apartments, houses, and villas.",B.OJ)
+B.On=s(["Home","home"],t.s)
+B.OO=s(["Services","services"],t.s)
+B.OH=s(["Process","process"],t.s)
+B.OG=s(["Pricing","pricing"],t.s)
+B.Of=s(["Contact","contact"],t.s)
+B.PK=s([B.On,B.OO,B.OH,B.OG,B.Of],A.aj("A<S<o>>"))
+B.OI=s(["24/7 Emergency Response","Tenant Screening & Placement","Rent Collection & Financial Reports","Regular Property Inspections","Maintenance Coordination","Legal Compliance Management"],t.s)
+B.Wm=new A.jR("Residential Property Management","Complete end-to-end management of residential properties including apartments, houses, and villas.",B.OI)
 B.Q9=s(["Lease Negotiation & Management","Facility Management","Vendor Coordination","Security Management","Common Area Maintenance","Financial Reporting & Analysis"],t.s)
 B.Wt=new A.jR("Commercial Property Management","Specialized management services for offices, retail spaces, and commercial complexes.",B.Q9)
-B.OO=s(["Property Marketing & Advertising","Tenant Background Checks","Lease Agreement Preparation","Move-in/Move-out Inspections","Security Deposit Management","Renewal Negotiations"],t.s)
-B.Wr=new A.jR("Rental & Leasing Services","Professional tenant placement and comprehensive lease management solutions.",B.OO)
-B.P1=s(["Preventive Maintenance Plans","Emergency Repair Services","Vendor Management","Quality Assurance","Cost-Effective Solutions","Detailed Maintenance Records"],t.s)
-B.Wp=new A.jR("Maintenance & Repairs","Proactive maintenance programs to keep your property in excellent condition.",B.P1)
-B.Oa=s(["24/7 Tenant Support","Complaint Resolution","Lease Enforcement","Communication Management","Conflict Mediation","Tenant Retention Programs"],t.s)
-B.Wn=new A.jR("Tenant Relations & Support","Professional tenant management ensuring positive landlord-tenant relationships.",B.Oa)
-B.OE=s(["Monthly Financial Reports","Budget Planning & Analysis","Rent Collection & Processing","Tax Documentation","Expense Tracking","ROI Optimization"],t.s)
-B.Wo=new A.jR("Financial Management","Comprehensive financial services to maximize your property investment returns.",B.OE)
-B.OL=s(["Legal Documentation","Regulatory Compliance","Eviction Processing","Dispute Resolution","Contract Management","Risk Management"],t.s)
-B.Ws=new A.jR("Legal & Compliance","Expert handling of all legal aspects and regulatory compliance matters.",B.OL)
+B.ON=s(["Property Marketing & Advertising","Tenant Background Checks","Lease Agreement Preparation","Move-in/Move-out Inspections","Security Deposit Management","Renewal Negotiations"],t.s)
+B.Wr=new A.jR("Rental & Leasing Services","Professional tenant placement and comprehensive lease management solutions.",B.ON)
+B.P0=s(["Preventive Maintenance Plans","Emergency Repair Services","Vendor Management","Quality Assurance","Cost-Effective Solutions","Detailed Maintenance Records"],t.s)
+B.Wp=new A.jR("Maintenance & Repairs","Proactive maintenance programs to keep your property in excellent condition.",B.P0)
+B.O9=s(["24/7 Tenant Support","Complaint Resolution","Lease Enforcement","Communication Management","Conflict Mediation","Tenant Retention Programs"],t.s)
+B.Wn=new A.jR("Tenant Relations & Support","Professional tenant management ensuring positive landlord-tenant relationships.",B.O9)
+B.OD=s(["Monthly Financial Reports","Budget Planning & Analysis","Rent Collection & Processing","Tax Documentation","Expense Tracking","ROI Optimization"],t.s)
+B.Wo=new A.jR("Financial Management","Comprehensive financial services to maximize your property investment returns.",B.OD)
+B.OK=s(["Legal Documentation","Regulatory Compliance","Eviction Processing","Dispute Resolution","Contract Management","Risk Management"],t.s)
+B.Ws=new A.jR("Legal & Compliance","Expert handling of all legal aspects and regulatory compliance matters.",B.OK)
 B.Nj=s(["Market Analysis","Investment Advisory","Property Valuation","Renovation Guidance","Portfolio Management","Exit Strategy Planning"],t.s)
 B.Wq=new A.jR("Property Consulting","Strategic consulting services to enhance property value and investment returns.",B.Nj)
-B.PT=s([B.Wm,B.Wt,B.Wr,B.Wp,B.Wn,B.Wo,B.Ws,B.Wq],A.aj("A<jR>"))
-B.a3o=new A.b1("Residential",null,null,null,null,null,null,null,null,null,null)
-B.IC=new A.kw("residential",B.a3o,B.dP,null,t.b7)
+B.PR=s([B.Wm,B.Wt,B.Wr,B.Wp,B.Wn,B.Wo,B.Ws,B.Wq],A.aj("A<jR>"))
+B.a3n=new A.b1("Residential",null,null,null,null,null,null,null,null,null,null)
+B.IC=new A.kw("residential",B.a3n,B.dP,null,t.b7)
 B.a3W=new A.b1("Commercial",null,null,null,null,null,null,null,null,null,null)
 B.ID=new A.kw("commercial",B.a3W,B.dP,null,t.b7)
-B.a3g=new A.b1("Mixed Use",null,null,null,null,null,null,null,null,null,null)
-B.IB=new A.kw("mixed",B.a3g,B.dP,null,t.b7)
-B.PU=s([B.IC,B.ID,B.IB],A.aj("A<kw<o>>"))
+B.a3f=new A.b1("Mixed Use",null,null,null,null,null,null,null,null,null,null)
+B.IB=new A.kw("mixed",B.a3f,B.dP,null,t.b7)
+B.PS=s([B.IC,B.ID,B.IB],A.aj("A<kw<o>>"))
 B.fu=s([B.d3,B.cG,B.hh,B.hi,B.jI],t.QP)
-B.PV=s(["name"],t.s)
+B.PT=s(["name"],t.s)
 B.De=new A.ua(0,"count")
 B.Df=new A.ua(1,"sum")
 B.Dg=new A.ua(2,"average")
@@ -99198,7 +99162,7 @@ B.D9=new A.kh(3,"recoverEmail")
 B.Da=new A.kh(4,"emailSignIn")
 B.Db=new A.kh(5,"verifyAndChangeEmail")
 B.Dc=new A.kh(6,"revertSecondFactorAddition")
-B.PZ=s([B.D6,B.D7,B.D8,B.D9,B.Da,B.Db,B.Dc],A.aj("A<kh>"))
+B.PX=s([B.D6,B.D7,B.D8,B.D9,B.Da,B.Db,B.Dc],A.aj("A<kh>"))
 B.Wk=new A.wT(1,"estimate")
 B.Wl=new A.wT(2,"previous")
 B.qM=s([B.fW,B.Wk,B.Wl],A.aj("A<wT>"))
@@ -99213,23 +99177,59 @@ B.lY=new A.i8(7,"functionModifier")
 B.wV=new A.i8(8,"symbolModifier")
 B.qN=s([B.ek,B.el,B.em,B.en,B.lV,B.lW,B.lX,B.lY,B.wV],A.aj("A<i8>"))
 B.Cg=new A.k(!0,B.jY,null,null,null,null,null,B.ae,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3O=new A.b1(u.f,null,B.Cg,null,null,null,null,null,null,null,null)
-B.Mt=new A.Cg(B.a3O,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,B.v,null,null,null,null,null,null,null,null,null,!0,!1,null,!1,null,!0,null,null,null)
-B.Q4=s([B.Mt],t.p)
+B.a3N=new A.b1(u.f,null,B.Cg,null,null,null,null,null,null,null,null)
+B.Mt=new A.Cg(B.a3N,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,B.v,null,null,null,null,null,null,null,null,null,!0,!1,null,!1,null,!0,null,null,null)
+B.Q2=s([B.Mt],t.p)
 B.qO=s(["telephoneNumber"],t.s)
+B.Vs=new A.eX("Agreement to Terms","By accessing or using our website and services, you agree to be bound by these Terms of Service and all applicable laws. If you do not agree, please discontinue using the site and services.",null,null)
+B.VK=new A.eX("Who We Are",'"Mirabella", "we", "us", and "our" refer to MEMS, a property management company serving Islamabad and nearby areas.',null,null)
+B.Vl=new A.eX("Eligibility","You must be at least 18 years old and capable of entering into a legally binding contract to use our services.",null,null)
+B.Nc=s(["Provide accurate, current, and complete information.","Maintain the security of your account credentials.","Notify us promptly of any unauthorized access.","Accept responsibility for all activities under your account."],t.s)
+B.VN=new A.eX("Accounts & Your Responsibilities",null,B.Nc,null)
+B.PQ=s(["Do not misuse the website, interfere with its operation, or attempt to access non-public areas.","Do not upload or transmit harmful code, spam, or content that infringes third-party rights.","Do not use the services for unlawful, fraudulent, or misleading purposes.","Respect other users, our team, and applicable local laws and regulations."],t.s)
+B.VB=new A.eX("Acceptable Use",null,B.PQ,null)
+B.Vr=new A.eX("Fees & Payments","Where applicable, fees for property management or related services will be specified in your proposal or service agreement. Taxes may apply. Late payments may incur additional charges as stated in your agreement.",null,null)
+B.VH=new A.eX("Property Listings & Content","By submitting property details, photos, or other materials, you grant Mirabella a non-exclusive, worldwide licence to use, reproduce, and display such content solely to provide and promote our services. You warrant that you have the rights to share the content and that it does not infringe third-party rights.",null,null)
+B.Vm=new A.eX("Intellectual Property","All site content, trademarks, logos, and software are the property of Mirabella or its licensors and are protected by applicable laws. You may not copy, modify, or distribute any portion of the site without prior written consent.",null,null)
+B.VG=new A.eX("Disclaimer of Warranties","The website and services are provided \u201cas is\u201d and \u201cas available\u201d. We disclaim all warranties of any kind, whether express or implied, including merchantability, fitness for a particular purpose, and non-infringement.",null,null)
+B.Vx=new A.eX("Limitation of Liability","To the fullest extent permitted by law, Mirabella will not be liable for indirect, incidental, special, consequential, or punitive damages, or any loss of profits or data, arising from your use of the site or services.",null,null)
+B.VC=new A.eX("Indemnification","You agree to defend, indemnify, and hold harmless Mirabella and its officers, employees, and agents from any claims, liabilities, damages, losses, and expenses (including legal fees) arising out of your use of the site, your content, or your violation of these terms.",null,null)
+B.VL=new A.eX("Termination","We may suspend or terminate access to the website or services at any time, with or without notice, for conduct that we believe violates these terms or is harmful to other users, us, or third parties.",null,null)
+B.VD=new A.eX("Governing Law & Disputes","These terms are governed by the laws of Pakistan. Any disputes will be subject to the exclusive jurisdiction of the courts located in Islamabad, Pakistan.",null,null)
+B.VO=new A.eX("Changes to These Terms","We may revise these terms from time to time. Continued use of the website or services after changes become effective constitutes acceptance of the revised terms.",null,null)
+B.qE=s([u.B,"Phone: +9233300492037","Office: E-18 Gulshana Sehat Mirabella Complex, Islamabad"],t.s)
+B.Vw=new A.eX("Contact Us","If you have questions about these Terms of Service, please reach out.",B.qE,null)
+B.Q4=s([B.Vs,B.VK,B.Vl,B.VN,B.VB,B.Vr,B.VH,B.Vm,B.VG,B.Vx,B.VC,B.VL,B.VD,B.VO,B.Vw],t.p)
 B.lB=s([!0,!1],t.HZ)
+B.VE=new A.fv("Introduction",'This Privacy Policy explains how MEMS ("Mirabella", "we", "us", or "our") handles personal information when you visit our website, contact us, or use our property management services in Islamabad and surrounding areas.',null,null,null)
+B.P3=s(["Contact details such as name, email, and phone number.","Property and preference details you share with our team.","Usage data (pages viewed, actions taken) to improve the website.","Device and technical data such as browser type and IP address.","Cookie identifiers and similar tracking technologies (see Cookie Policy)."],t.s)
+B.VJ=new A.fv("Information We Collect",null,B.P3,"We collect information directly from you, automatically when you use the site, and from trusted service providers (e.g., analytics).",null)
+B.PZ=s(["Provide, personalize, and improve our services.","Respond to enquiries and provide customer support.","Process applications, viewings, and tenancy administration.","Send service updates and relevant marketing (you can opt out anytime).","Conduct analytics, security monitoring, and fraud prevention.","Comply with legal, regulatory, and tax obligations."],t.s)
+B.Vj=new A.fv("How We Use Your Information",null,B.PZ,null,null)
+B.Vu=new A.fv("Legal Bases for Processing","Where required by law, we rely on one or more of the following legal bases: consent, performance of a contract, compliance with legal obligations, and our legitimate interests in operating and improving our services.",null,null,null)
+B.NQ=s(["Access, update, or correct your information.","Request deletion where applicable.","Object to or restrict certain processing activities.","Opt out of marketing at any time (unsubscribe link or contact us).","Manage cookies and analytics preferences (see Cookie Policy)."],t.s)
+B.VP=new A.fv("Your Privacy Choices & Rights",null,B.NQ,"To exercise your rights, please contact us using the details below. We may request verification to protect your account.",null)
+B.Vk=new A.fv("Cookies & Similar Technologies","We use cookies to keep the site secure, remember your preferences, and understand performance. Your browser provides controls to manage cookies. For more details, see our Cookie Policy.",null,null,null)
+B.VA=new A.fv("Data Retention","We keep personal information only as long as necessary to provide services, meet legal requirements, resolve disputes, and enforce our agreements.",null,null,null)
+B.VQ=new A.fv("Security","We use administrative, technical, and physical safeguards to help protect personal information. No method of transmission or storage is completely secure; please use the site responsibly.",null,null,null)
+B.Vz=new A.fv("International Transfers","Your information may be processed and stored outside your country. Where required, we implement appropriate safeguards to protect your data.",null,null,null)
+B.Vv=new A.fv("Third-Party Links","Our website may contain links to third-party sites. Their privacy practices are not covered by this policy. Please review their policies before providing personal information.",null,null,null)
+B.Vq=new A.fv("Children's Privacy","Our services are not directed to children and we do not knowingly collect data from individuals under 18. If you believe a minor has provided data, please contact us for removal.",null,null,null)
+B.Vo=new A.fv("Changes to This Policy","We may update this policy periodically to reflect changes in practices, technology, or legal requirements. The \u201cLast updated\u201d date indicates the most recent revision.",null,null,null)
+B.Vp=new A.fv("Contact Us","Questions or requests about this policy? We\u2019re here to help.",B.qE,null,null)
+B.Q6=s([B.VE,B.VJ,B.Vj,B.Vu,B.VP,B.Vk,B.VA,B.VQ,B.Vz,B.Vv,B.Vq,B.Vo,B.Vp],t.p)
 B.Q7=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
 B.Vy=new A.l_("What Are Cookies?","Cookies are small text files stored on your device by your browser. They help websites function properly, remember preferences, and understand performance.",null,null,null)
-B.Ph=s(["Essential cookies \u2014 required for core features and security.","Performance cookies \u2014 help us measure and improve site performance.","Functionality cookies \u2014 remember your choices and preferences.","Analytics cookies \u2014 provide aggregated insights on how the site is used.","Advertising/retargeting cookies \u2014 show relevant ads (used only if applicable and subject to your consent)."],t.s)
-B.Vn=new A.l_("Types of Cookies We Use",null,B.Ph,null,null)
-B.PG=s(["Maintain session security and prevent abuse.","Remember preferences (e.g., language, forms).","Analyze traffic to improve content and user experience.","Measure marketing effectiveness and website performance."],t.s)
-B.Vt=new A.l_("How We Use Cookies",null,B.PG,"Some cookies are set by third parties (e.g., analytics providers). We do not control their cookies; please review their policies.",null)
-B.VE=new A.l_("Managing Cookies","You can control cookies through your browser settings. Most browsers allow you to block or delete cookies. Blocking some cookies may affect site functionality. Where required, we request consent for non-essential cookies.",null,null,null)
+B.Pg=s(["Essential cookies \u2014 required for core features and security.","Performance cookies \u2014 help us measure and improve site performance.","Functionality cookies \u2014 remember your choices and preferences.","Analytics cookies \u2014 provide aggregated insights on how the site is used.","Advertising/retargeting cookies \u2014 show relevant ads (used only if applicable and subject to your consent)."],t.s)
+B.Vn=new A.l_("Types of Cookies We Use",null,B.Pg,null,null)
+B.PF=s(["Maintain session security and prevent abuse.","Remember preferences (e.g., language, forms).","Analyze traffic to improve content and user experience.","Measure marketing effectiveness and website performance."],t.s)
+B.Vt=new A.l_("How We Use Cookies",null,B.PF,"Some cookies are set by third parties (e.g., analytics providers). We do not control their cookies; please review their policies.",null)
+B.VF=new A.l_("Managing Cookies","You can control cookies through your browser settings. Most browsers allow you to block or delete cookies. Blocking some cookies may affect site functionality. Where required, we request consent for non-essential cookies.",null,null,null)
 B.Vi=new A.l_("Do Not Track","Some browsers offer a \u201cDo Not Track\u201d (DNT) signal. Because there is no common standard, we do not respond to DNT at this time. We continue to review developments and may update this policy accordingly.",null,null,null)
 B.VI=new A.l_("Updates to This Policy","We may change this Cookie Policy from time to time. Any changes will be posted here with an updated \u201cLast updated\u201d date.",null,null,null)
-B.PA=s([u.B,"Phone: +9233300492037"],t.s)
-B.VL=new A.l_("Contact Us","If you have questions about our use of cookies or your choices, get in touch.",B.PA,null,null)
-B.Q8=s([B.Vy,B.Vn,B.Vt,B.VE,B.Vi,B.VI,B.VL],t.p)
+B.Pz=s([u.B,"Phone: +9233300492037"],t.s)
+B.VM=new A.l_("Contact Us","If you have questions about our use of cookies or your choices, get in touch.",B.Pz,null,null)
+B.Q8=s([B.Vy,B.Vn,B.Vt,B.VF,B.Vi,B.VI,B.VM],t.p)
 B.Qa=new A.ad5(0,"defaultSource")
 B.r=new A.CH(0,"ignored")
 B.b4=new A.i(4294967304)
@@ -99262,22 +99262,22 @@ B.ab=new A.Po(0,"min")
 B.wJ=new A.ob(B.eU,B.eU,t.Dx)
 B.Ss={in:0,iw:1,ji:2,jw:3,mo:4,aam:5,adp:6,aue:7,ayx:8,bgm:9,bjd:10,ccq:11,cjr:12,cka:13,cmk:14,coy:15,cqu:16,drh:17,drw:18,gav:19,gfx:20,ggn:21,gti:22,guv:23,hrr:24,ibi:25,ilw:26,jeg:27,kgc:28,kgh:29,koj:30,krm:31,ktr:32,kvs:33,kwq:34,kxe:35,kzj:36,kzt:37,lii:38,lmm:39,meg:40,mst:41,mwj:42,myt:43,nad:44,ncp:45,nnx:46,nts:47,oun:48,pcr:49,pmc:50,pmu:51,ppa:52,ppr:53,pry:54,puz:55,sca:56,skk:57,tdu:58,thc:59,thx:60,tie:61,tkk:62,tlw:63,tmp:64,tne:65,tnf:66,tsf:67,uok:68,xba:69,xia:70,xkh:71,xsj:72,ybd:73,yma:74,ymt:75,yos:76,yuu:77}
 B.c4=new A.cc(B.Ss,["id","he","yi","jv","ro","aas","dz","ktz","nun","bcg","drl","rki","mom","cmr","xch","pij","quh","khk","prs","dev","vaj","gvr","nyc","duz","jal","opa","gal","oyb","tdf","kml","kwv","bmf","dtp","gdj","yam","tvd","dtp","dtp","raq","rmx","cir","mry","vaj","mry","xny","kdz","ngv","pij","vaj","adx","huw","phr","bfy","lcq","prt","pub","hle","oyb","dtp","tpo","oyb","ras","twm","weo","tyj","kak","prs","taj","ema","cax","acn","waw","suj","rki","lrr","mtm","zom","yug"],t.li)
-B.Pt=s([],t.V)
+B.Ps=s([],t.V)
 B.Ek=new A.bs(-1,B.N,B.bP,B.fK,1)
 B.bZ=new A.r(0.1411764705882353,0,0,0,B.e)
 B.c5=new A.j(0,1)
 B.Eb=new A.bs(0,B.N,B.bZ,B.c5,1)
 B.Ej=new A.bs(0,B.N,B.bQ,B.c5,3)
-B.PX=s([B.Ek,B.Eb,B.Ej],t.V)
+B.PV=s([B.Ek,B.Eb,B.Ej],t.V)
 B.eq=new A.j(0,3)
 B.Ei=new A.bs(-2,B.N,B.bP,B.eq,1)
 B.Ew=new A.bs(0,B.N,B.bZ,B.fK,2)
 B.Ed=new A.bs(0,B.N,B.bQ,B.c5,5)
-B.O8=s([B.Ei,B.Ew,B.Ed],t.V)
+B.O7=s([B.Ei,B.Ew,B.Ed],t.V)
 B.Ec=new A.bs(-2,B.N,B.bP,B.eq,3)
 B.Ef=new A.bs(0,B.N,B.bZ,B.eq,4)
 B.EF=new A.bs(0,B.N,B.bQ,B.c5,8)
-B.PK=s([B.Ec,B.Ef,B.EF],t.V)
+B.PJ=s([B.Ec,B.Ef,B.EF],t.V)
 B.Eh=new A.bs(-1,B.N,B.bP,B.fK,4)
 B.iC=new A.j(0,4)
 B.Er=new A.bs(0,B.N,B.bZ,B.iC,5)
@@ -99286,7 +99286,7 @@ B.Nk=s([B.Eh,B.Er,B.En],t.V)
 B.E9=new A.bs(-1,B.N,B.bP,B.eq,5)
 B.Ex=new A.bs(0,B.N,B.bZ,B.m1,10)
 B.EE=new A.bs(0,B.N,B.bQ,B.c5,18)
-B.Oi=s([B.E9,B.Ex,B.EE],t.V)
+B.Oh=s([B.E9,B.Ex,B.EE],t.V)
 B.m0=new A.j(0,5)
 B.Ee=new A.bs(-3,B.N,B.bP,B.m0,5)
 B.m2=new A.j(0,8)
@@ -99303,19 +99303,19 @@ B.Et=new A.bs(-4,B.N,B.bP,B.SH,8)
 B.SC=new A.j(0,12)
 B.Ep=new A.bs(2,B.N,B.bZ,B.SC,17)
 B.EC=new A.bs(4,B.N,B.bQ,B.m0,22)
-B.Or=s([B.Et,B.Ep,B.EC],t.V)
+B.Oq=s([B.Et,B.Ep,B.EC],t.V)
 B.EB=new A.bs(-5,B.N,B.bP,B.m2,10)
 B.SD=new A.j(0,16)
 B.Ev=new A.bs(2,B.N,B.bZ,B.SD,24)
 B.EH=new A.bs(5,B.N,B.bQ,B.m1,30)
-B.Oq=s([B.EB,B.Ev,B.EH],t.V)
+B.Op=s([B.EB,B.Ev,B.EH],t.V)
 B.SB=new A.j(0,11)
 B.Eg=new A.bs(-7,B.N,B.bP,B.SB,15)
 B.SF=new A.j(0,24)
 B.EA=new A.bs(3,B.N,B.bZ,B.SF,38)
 B.Eu=new A.bs(8,B.N,B.bQ,B.x1,46)
-B.OM=s([B.Eg,B.EA,B.Eu],t.V)
-B.RE=new A.cG([0,B.Pt,1,B.PX,2,B.O8,3,B.PK,4,B.Nk,6,B.Oi,8,B.NG,9,B.NX,12,B.Or,16,B.Oq,24,B.OM],A.aj("cG<q,S<bs>>"))
+B.OL=s([B.Eg,B.EA,B.Eu],t.V)
+B.RE=new A.cG([0,B.Ps,1,B.PV,2,B.O7,3,B.PJ,4,B.Nk,6,B.Oh,8,B.NG,9,B.NX,12,B.Oq,16,B.Op,24,B.OL],A.aj("cG<q,S<bs>>"))
 B.c2=new A.i(4294968065)
 B.mw=new A.al(B.c2,!1,!1,!0,!1,B.r)
 B.bS=new A.i(4294968066)
@@ -99828,57 +99828,57 @@ B.NO=s([54,null,null,8589935158],t.Z)
 B.NP=s([55,null,null,8589935159],t.Z)
 B.NR=s([56,null,null,8589935160],t.Z)
 B.NT=s([57,null,null,8589935161],t.Z)
-B.OU=s([8589934852,8589934852,8589934853,null],t.Z)
+B.OT=s([8589934852,8589934852,8589934853,null],t.Z)
 B.No=s([4294967555,null,4294967555,null],t.Z)
 B.Np=s([4294968065,null,null,8589935154],t.Z)
 B.Nq=s([4294968066,null,null,8589935156],t.Z)
 B.Nr=s([4294968067,null,null,8589935158],t.Z)
 B.Ns=s([4294968068,null,null,8589935160],t.Z)
 B.Nx=s([4294968321,null,null,8589935157],t.Z)
-B.OV=s([8589934848,8589934848,8589934849,null],t.Z)
+B.OU=s([8589934848,8589934848,8589934849,null],t.Z)
 B.Nn=s([4294967423,null,null,8589935150],t.Z)
 B.Nt=s([4294968069,null,null,8589935153],t.Z)
 B.Nm=s([4294967309,null,null,8589935117],t.Z)
 B.Nu=s([4294968070,null,null,8589935159],t.Z)
 B.Ny=s([4294968327,null,null,8589935152],t.Z)
-B.OW=s([8589934854,8589934854,8589934855,null],t.Z)
+B.OV=s([8589934854,8589934854,8589934855,null],t.Z)
 B.Nv=s([4294968071,null,null,8589935155],t.Z)
 B.Nw=s([4294968072,null,null,8589935161],t.Z)
-B.OX=s([8589934850,8589934850,8589934851,null],t.Z)
-B.wR=new A.cG(["*",B.Nz,"+",B.NA,"-",B.NB,".",B.NC,"/",B.ND,"0",B.NE,"1",B.NF,"2",B.NJ,"3",B.NL,"4",B.NM,"5",B.NN,"6",B.NO,"7",B.NP,"8",B.NR,"9",B.NT,"Alt",B.OU,"AltGraph",B.No,"ArrowDown",B.Np,"ArrowLeft",B.Nq,"ArrowRight",B.Nr,"ArrowUp",B.Ns,"Clear",B.Nx,"Control",B.OV,"Delete",B.Nn,"End",B.Nt,"Enter",B.Nm,"Home",B.Nu,"Insert",B.Ny,"Meta",B.OW,"PageDown",B.Nv,"PageUp",B.Nw,"Shift",B.OX],A.aj("cG<o,S<q?>>"))
+B.OW=s([8589934850,8589934850,8589934851,null],t.Z)
+B.wR=new A.cG(["*",B.Nz,"+",B.NA,"-",B.NB,".",B.NC,"/",B.ND,"0",B.NE,"1",B.NF,"2",B.NJ,"3",B.NL,"4",B.NM,"5",B.NN,"6",B.NO,"7",B.NP,"8",B.NR,"9",B.NT,"Alt",B.OT,"AltGraph",B.No,"ArrowDown",B.Np,"ArrowLeft",B.Nq,"ArrowRight",B.Nr,"ArrowUp",B.Ns,"Clear",B.Nx,"Control",B.OU,"Delete",B.Nn,"End",B.Nt,"Enter",B.Nm,"Home",B.Nu,"Insert",B.Ny,"Meta",B.OV,"PageDown",B.Nv,"PageUp",B.Nw,"Shift",B.OW],A.aj("cG<o,S<q?>>"))
 B.NS=s([B.qW,null,null,B.wC],t.L)
-B.PB=s([B.wo,null,null,B.wD],t.L)
-B.Op=s([B.wp,null,null,B.wE],t.L)
-B.OY=s([B.wq,null,null,B.dp],t.L)
+B.PA=s([B.wo,null,null,B.wD],t.L)
+B.Oo=s([B.wp,null,null,B.wE],t.L)
+B.OX=s([B.wq,null,null,B.dp],t.L)
 B.Nb=s([B.wr,null,null,B.wF],t.L)
-B.Q1=s([B.ws,null,null,B.lM],t.L)
-B.PP=s([B.wt,null,null,B.fD],t.L)
+B.Q_=s([B.ws,null,null,B.lM],t.L)
+B.PO=s([B.wt,null,null,B.fD],t.L)
 B.NZ=s([B.wu,null,null,B.dq],t.L)
-B.Q6=s([B.wv,null,null,B.fE],t.L)
-B.PO=s([B.ww,null,null,B.dr],t.L)
+B.Q5=s([B.wv,null,null,B.fE],t.L)
+B.PN=s([B.ww,null,null,B.dr],t.L)
 B.NW=s([B.wx,null,null,B.lN],t.L)
 B.Nh=s([B.wy,null,null,B.ds],t.L)
-B.O9=s([B.wz,null,null,B.fF],t.L)
-B.PD=s([B.wA,null,null,B.dt],t.L)
-B.PH=s([B.wB,null,null,B.fG],t.L)
-B.O1=s([B.fB,B.fB,B.iw,null],t.L)
-B.Q2=s([B.is,null,B.is,null],t.L)
-B.Ox=s([B.c2,null,null,B.dq],t.L)
-B.Oy=s([B.bS,null,null,B.dr],t.L)
-B.Oz=s([B.bT,null,null,B.ds],t.L)
-B.Q3=s([B.c3,null,null,B.dt],t.L)
-B.PM=s([B.lF,null,null,B.lN],t.L)
-B.O2=s([B.fA,B.fA,B.iv,null],t.L)
-B.Pb=s([B.aZ,null,null,B.dp],t.L)
-B.OA=s([B.dl,null,null,B.fD],t.L)
+B.O8=s([B.wz,null,null,B.fF],t.L)
+B.PC=s([B.wA,null,null,B.dt],t.L)
+B.PG=s([B.wB,null,null,B.fG],t.L)
+B.O0=s([B.fB,B.fB,B.iw,null],t.L)
+B.Q0=s([B.is,null,B.is,null],t.L)
+B.Ow=s([B.c2,null,null,B.dq],t.L)
+B.Ox=s([B.bS,null,null,B.dr],t.L)
+B.Oy=s([B.bT,null,null,B.ds],t.L)
+B.Q1=s([B.c3,null,null,B.dt],t.L)
+B.PL=s([B.lF,null,null,B.lN],t.L)
+B.O1=s([B.fA,B.fA,B.iv,null],t.L)
+B.Pa=s([B.aZ,null,null,B.dp],t.L)
+B.Oz=s([B.dl,null,null,B.fD],t.L)
 B.NV=s([B.ir,null,null,B.lL],t.L)
-B.OB=s([B.dm,null,null,B.fF],t.L)
-B.PN=s([B.lG,null,null,B.lM],t.L)
-B.O3=s([B.fC,B.fC,B.ix,null],t.L)
-B.OC=s([B.fy,null,null,B.fE],t.L)
-B.Pl=s([B.fz,null,null,B.fG],t.L)
-B.O4=s([B.cU,B.cU,B.dn,null],t.L)
-B.RT=new A.cG(["*",B.NS,"+",B.PB,"-",B.Op,".",B.OY,"/",B.Nb,"0",B.Q1,"1",B.PP,"2",B.NZ,"3",B.Q6,"4",B.PO,"5",B.NW,"6",B.Nh,"7",B.O9,"8",B.PD,"9",B.PH,"Alt",B.O1,"AltGraph",B.Q2,"ArrowDown",B.Ox,"ArrowLeft",B.Oy,"ArrowRight",B.Oz,"ArrowUp",B.Q3,"Clear",B.PM,"Control",B.O2,"Delete",B.Pb,"End",B.OA,"Enter",B.NV,"Home",B.OB,"Insert",B.PN,"Meta",B.O3,"PageDown",B.OC,"PageUp",B.Pl,"Shift",B.O4],A.aj("cG<o,S<i?>>"))
+B.OA=s([B.dm,null,null,B.fF],t.L)
+B.PM=s([B.lG,null,null,B.lM],t.L)
+B.O2=s([B.fC,B.fC,B.ix,null],t.L)
+B.OB=s([B.fy,null,null,B.fE],t.L)
+B.Pk=s([B.fz,null,null,B.fG],t.L)
+B.O3=s([B.cU,B.cU,B.dn,null],t.L)
+B.RT=new A.cG(["*",B.NS,"+",B.PA,"-",B.Oo,".",B.OX,"/",B.Nb,"0",B.Q_,"1",B.PO,"2",B.NZ,"3",B.Q5,"4",B.PN,"5",B.NW,"6",B.Nh,"7",B.O8,"8",B.PC,"9",B.PG,"Alt",B.O0,"AltGraph",B.Q0,"ArrowDown",B.Ow,"ArrowLeft",B.Ox,"ArrowRight",B.Oy,"ArrowUp",B.Q1,"Clear",B.PL,"Control",B.O1,"Delete",B.Pa,"End",B.Oz,"Enter",B.NV,"Home",B.OA,"Insert",B.PM,"Meta",B.O2,"PageDown",B.OB,"PageUp",B.Pk,"Shift",B.O3],A.aj("cG<o,S<i?>>"))
 B.JU=new A.lV(0,"arrayUnion")
 B.JV=new A.lV(1,"arrayRemove")
 B.JW=new A.lV(2,"delete")
@@ -100278,8 +100278,8 @@ B.Cl=new A.k(!0,B.ar,null,null,null,null,20,B.V,null,null,null,null,null,null,nu
 B.a45=new A.b1("Mirabella",null,B.Cl,null,null,null,B.B,null,null,null,null)
 B.a0H=new A.k(!0,B.X,null,null,null,null,11,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a48=new A.b1("Estate Management Services",null,B.a0H,null,null,null,B.B,null,null,null,null)
-B.Pz=s([B.a45,B.eF,B.a48],t.p)
-B.HO=new A.kr(B.ad,B.l,B.m,B.y,null,B.b8,null,0,B.Pz,null)
+B.Py=s([B.a45,B.eF,B.a48],t.p)
+B.HO=new A.kr(B.ad,B.l,B.m,B.y,null,B.b8,null,0,B.Py,null)
 B.Th=new A.aZ(B.pp,B.HO,null)
 B.Jd=new A.a5(0,7,0,0)
 B.Kn=new A.ay(57699,"MaterialIcons",!1)
@@ -100287,14 +100287,14 @@ B.Lo=new A.bn(B.Kn,6,B.x,null,null)
 B.m7=new A.aZ(B.Jd,B.Lo,null)
 B.LP=new A.bn(B.ig,16,B.du,null,null)
 B.Tj=new A.aZ(B.po,B.LP,null)
+B.Ce=new A.k(!0,B.ar,null,null,null,null,16,B.V,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a3P=new A.b1("MEMS",null,B.Ce,null,null,null,B.B,null,1,null,null)
+B.Tk=new A.aZ(B.hU,B.a3P,null)
 B.Je=new A.a5(10,0,10,0)
 B.Kr=new A.ay(57957,"MaterialIcons",!1)
 B.Hr=new A.r(1,0.5803921568627451,0.6392156862745098,0.7215686274509804,B.e)
 B.LU=new A.bn(B.Kr,6,B.Hr,null,null)
-B.Tk=new A.aZ(B.Je,B.LU,null)
-B.Ce=new A.k(!0,B.ar,null,null,null,null,16,B.V,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3i=new A.b1("Mirabella Estate Management Services",null,B.Ce,null,null,null,B.B,null,1,null,null)
-B.Tl=new A.aZ(B.hU,B.a3i,null)
+B.Tl=new A.aZ(B.Je,B.LU,null)
 B.x7=new A.wa(null)
 B.cq=new A.Qe(0,"fill")
 B.bG=new A.Qe(1,"stroke")
@@ -100388,19 +100388,19 @@ B.V2=new A.ho("AdminLogin",null)
 B.me=new A.ho(null,null)
 B.Lp=new A.bn(B.lo,18,B.x,null,null)
 B.a2I=new A.k(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3k=new A.b1("Please keep this tab open",null,B.a2I,null,null,null,null,null,null,null,null)
-B.JG=new A.lP(1,B.di,B.a3k,null)
+B.a3i=new A.b1("Please keep this tab open",null,B.a2I,null,null,null,null,null,null,null,null)
+B.JG=new A.lP(1,B.di,B.a3i,null)
 B.NI=s([B.Lp,B.aU,B.JG],t.p)
 B.V3=new A.my(B.aG,B.l,B.m,B.o,null,B.b8,null,0,B.NI,null)
 B.Km=new A.ay(57689,"MaterialIcons",!1)
 B.LB=new A.bn(B.Km,null,B.f,null,null)
-B.a3u=new A.b1("Record deleted successfully",null,null,null,null,null,null,null,null,null,null)
-B.Pa=s([B.LB,B.b0,B.a3u],t.p)
-B.V4=new A.my(B.aG,B.l,B.m,B.o,null,B.b8,null,0,B.Pa,null)
+B.a3s=new A.b1("Record deleted successfully",null,null,null,null,null,null,null,null,null,null)
+B.P9=s([B.LB,B.b0,B.a3s],t.p)
+B.V4=new A.my(B.aG,B.l,B.m,B.o,null,B.b8,null,0,B.P9,null)
 B.Ll=new A.bn(B.ln,null,B.x,null,null)
-B.a3x=new A.b1("Importing Data",null,null,null,null,null,null,null,null,null,null)
-B.Q5=s([B.Ll,B.b0,B.a3x],t.p)
-B.V5=new A.my(B.aG,B.l,B.m,B.o,null,B.b8,null,0,B.Q5,null)
+B.a3v=new A.b1("Importing Data",null,null,null,null,null,null,null,null,null,null)
+B.Q3=s([B.Ll,B.b0,B.a3v],t.p)
+B.V5=new A.my(B.aG,B.l,B.m,B.o,null,B.b8,null,0,B.Q3,null)
 B.V6=new A.Ep(1333)
 B.mf=new A.Ep(2222)
 B.V7=new A.RI(null,null)
@@ -100528,9 +100528,9 @@ B.aF=new A.cm(4,"selected")
 B.Bi=new A.el([B.aF],t.El)
 B.Hi=new A.r(0.23529411764705882,0,0,0,B.e)
 B.EG=new A.bs(0.5,B.N,B.Hi,B.iC,10)
-B.Pe=s([B.EG],t.V)
+B.Pd=s([B.EG],t.V)
 B.V1=new A.kY(B.nV,B.p)
-B.WK=new A.ii(null,null,null,B.Pe,B.V1)
+B.WK=new A.ii(null,null,null,B.Pd,B.V1)
 B.Bj=new A.al(B.lD,!1,!1,!1,!0,B.r)
 B.WL=new A.al(B.qR,!0,!1,!1,!1,B.r)
 B.bm=new A.CH(1,"locked")
@@ -100665,8 +100665,8 @@ B.XZ=new A.l3(3,"hide")
 B.a88=new A.l3(4,"remove")
 B.BR=new A.l3(5,"timeout")
 B.Y_=new A.x1(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3l=new A.b1("\ud83d\udd10 Opening Admin Panel...",null,null,null,null,null,null,null,null,null,null)
-B.Y0=new A.rU(B.a3l,B.du,null,null,null,null,null,null,B.dD,null,null,null,null,B.db,null,null,null,B.P,null)
+B.a3j=new A.b1("\ud83d\udd10 Opening Admin Panel...",null,null,null,null,null,null,null,null,null,null)
+B.Y0=new A.rU(B.a3j,B.du,null,null,null,null,null,null,B.dD,null,null,null,null,B.db,null,null,null,B.P,null)
 B.BS=new A.F4(0,"permissive")
 B.Y1=new A.F4(1,"normal")
 B.Y2=new A.F4(2,"forced")
@@ -101084,50 +101084,52 @@ B.a1H=new A.k(!0,B.Q,null,".AppleSystemUIFont",null,null,null,null,null,null,nul
 B.a23=new A.k(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.h,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
 B.Zt=new A.k(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.h,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.a39=new A.ep(B.a0o,B.a_j,B.a0p,B.a16,B.ZQ,B.a__,B.a_E,B.a0S,B.a_S,B.a1M,B.Zj,B.ZE,B.a1H,B.a23,B.Zt)
-B.mX=new A.k(!0,B.Y,null,null,null,null,16,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3a=new A.b1("Please read these terms carefully before using Mirabella Estate Management Services.",null,B.mX,null,null,null,null,null,null,null,null)
 B.a0u=new A.k(!0,null,null,null,null,null,16,B.V,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3b=new A.b1("Admin",null,B.a0u,null,null,!1,B.B,null,1,null,null)
-B.a3c=new A.b1("Delete",null,null,null,null,null,null,null,null,null,null)
-B.a3d=new A.b1("Start Now \u2014 Talk to an Expert",null,null,null,null,null,null,null,null,null,null)
+B.a3a=new A.b1("Admin",null,B.a0u,null,null,!1,B.B,null,1,null,null)
+B.a3b=new A.b1("Delete",null,null,null,null,null,null,null,null,null,null)
+B.a3c=new A.b1("Start Now \u2014 Talk to an Expert",null,null,null,null,null,null,null,null,null,null)
 B.n_=new A.b1("Cancel",null,null,null,null,null,null,null,null,null,null)
-B.a3h=new A.b1("Send Message",null,null,null,null,null,null,null,null,null,null)
+B.a3g=new A.b1("Send Message",null,null,null,null,null,null,null,null,null,null)
 B.a25=new A.k(!0,B.cM,null,null,null,null,15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3j=new A.b1("Sign in to access dashboard",null,B.a25,null,null,null,null,null,null,null,null)
-B.a3m=new A.b1("Book Your Plot Now",null,null,null,null,null,null,null,null,null,null)
-B.a3n=new A.b1("Contact us for enterprise solutions \u2192",null,B.Cm,null,null,null,null,null,null,null,null)
-B.a3p=new A.b1("Choose JSON File",null,null,null,null,null,null,null,null,null,null)
+B.a3h=new A.b1("Sign in to access dashboard",null,B.a25,null,null,null,null,null,null,null,null)
+B.a3k=new A.b1("Book Your Plot Now",null,null,null,null,null,null,null,null,null,null)
+B.mX=new A.k(!0,B.Y,null,null,null,null,16,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a3l=new A.b1("How MEMS collects, uses, and protects your information.",null,B.mX,null,null,null,null,null,null,null,null)
+B.a3m=new A.b1("Contact us for enterprise solutions \u2192",null,B.Cm,null,null,null,null,null,null,null,null)
+B.a3o=new A.b1("Choose JSON File",null,null,null,null,null,null,null,null,null,null)
 B.Cj=new A.k(!0,B.kd,null,null,null,null,null,null,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3q=new A.b1("Professional property management services in Islamabad and Rawalpindi. We help property owners maximize returns while minimizing stress through expert management solutions.",null,B.Cj,null,null,null,null,null,null,null,null)
-B.a3r=new A.b1("How Mirabella Estate Management Services collects, uses, and protects your information.",null,B.mX,null,null,null,null,null,null,null,null)
-B.a3s=new A.b1("Payment Plans",null,null,null,null,null,null,null,null,null,null)
+B.a3p=new A.b1("Professional property management services in Islamabad and Rawalpindi. We help property owners maximize returns while minimizing stress through expert management solutions.",null,B.Cj,null,null,null,null,null,null,null,null)
+B.a3q=new A.b1("Payment Plans",null,null,null,null,null,null,null,null,null,null)
 B.eJ=new A.k(!0,B.ke,null,null,null,null,12,B.ae,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3t=new A.b1("Our Services",null,B.eJ,null,null,null,null,null,null,null,null)
+B.a3r=new A.b1("Our Services",null,B.eJ,null,null,null,null,null,null,null,null)
 B.n0=new A.b1("Get Started",null,null,null,null,null,null,null,null,null,null)
-B.a3v=new A.b1("Get In Touch",null,B.eJ,null,null,null,null,null,null,null,null)
+B.a3t=new A.b1("Get In Touch",null,B.eJ,null,null,null,null,null,null,null,null)
 B.Cq=new A.b1("Add New",null,null,null,null,null,null,null,null,null,null)
-B.a3w=new A.b1("Join 5,000+ property owners receiving our insights",null,B.jd,B.a_,null,null,null,null,null,null,null)
-B.a3y=new A.b1("Contact",null,B.Ch,null,null,null,null,null,null,null,null)
-B.a3z=new A.b1("Free Consultation",null,null,null,null,null,null,null,null,null,null)
-B.a3A=new A.b1("Transparent Pricing",null,B.eJ,null,null,null,null,null,null,null,null)
+B.a3u=new A.b1("Join 5,000+ property owners receiving our insights",null,B.jd,B.a_,null,null,null,null,null,null,null)
+B.a26=new A.k(!0,B.kd,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.Cr=new A.b1("\xa9 2025 MEMS. All rights reserved.",null,B.a26,null,null,null,null,null,null,null,null)
+B.a3w=new A.b1("Contact",null,B.Ch,null,null,null,null,null,null,null,null)
+B.a3x=new A.b1("Please read these terms carefully before using MEMS.",null,B.mX,null,null,null,null,null,null,null,null)
+B.a3y=new A.b1("Free Consultation",null,null,null,null,null,null,null,null,null,null)
+B.a3z=new A.b1("Transparent Pricing",null,B.eJ,null,null,null,null,null,null,null,null)
 B.K7=new A.aaj(1,"italic")
 B.a0g=new A.k(!0,B.cM,null,null,null,null,11,null,B.K7,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3C=new A.b1("* Terms and conditions apply",null,B.a0g,null,null,null,null,null,null,null,null)
-B.a3D=new A.b1("+923300492037",null,B.Cg,null,null,null,null,null,null,null,null)
+B.a3B=new A.b1("* Terms and conditions apply",null,B.a0g,null,null,null,null,null,null,null,null)
+B.a3C=new A.b1("+923300492037",null,B.Cg,null,null,null,null,null,null,null,null)
 B.a_6=new A.k(!0,B.hA,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3E=new A.b1("Only authorized administrators can access this panel",null,B.a_6,B.a_,null,null,null,null,null,null,null)
-B.a3F=new A.b1("Why Choose Mirabella",null,B.eJ,null,null,null,null,null,null,null,null)
+B.a3D=new A.b1("Only authorized administrators can access this panel",null,B.a_6,B.a_,null,null,null,null,null,null,null)
+B.a3E=new A.b1("Why Choose Mirabella",null,B.eJ,null,null,null,null,null,null,null,null)
 B.Hj=new A.r(1,0.3764705882352941,0.4196078431372549,0.5215686274509804,B.e)
 B.a22=new A.k(!0,B.Hj,null,null,null,null,11,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3G=new A.b1("Licensed Real Estate Management Company",null,B.a22,B.a_,null,null,null,null,null,null,null)
-B.a3I=new A.b1("Subscribe Now",null,B.hb,null,null,null,null,null,null,null,null)
+B.a3F=new A.b1("Licensed Real Estate Management Company",null,B.a22,B.a_,null,null,null,null,null,null,null)
+B.a3H=new A.b1("Subscribe Now",null,B.hb,null,null,null,null,null,null,null,null)
 B.Ci=new A.k(!0,B.Q,null,null,null,null,14,B.ae,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3J=new A.b1("Contact & Financial",null,B.Ci,null,null,null,null,null,null,null,null)
-B.a3K=new A.b1("How It Works",null,B.eJ,null,null,null,null,null,null,null,null)
-B.a3L=new A.b1("FAQ",null,B.eJ,null,null,null,null,null,null,null,null)
-B.a3M=new A.b1("Confirm Logout",null,null,null,null,null,null,null,null,null,null)
-B.a3N=new A.b1(u.H,null,B.Cj,null,null,null,null,null,null,null,null)
-B.a3P=new A.b1("Save",null,B.mZ,null,null,null,null,null,null,null,null)
+B.a3I=new A.b1("Contact & Financial",null,B.Ci,null,null,null,null,null,null,null,null)
+B.a3J=new A.b1("How It Works",null,B.eJ,null,null,null,null,null,null,null,null)
+B.a3K=new A.b1("FAQ",null,B.eJ,null,null,null,null,null,null,null,null)
+B.a3L=new A.b1("Confirm Logout",null,null,null,null,null,null,null,null,null,null)
+B.a3M=new A.b1(u.H,null,B.Cj,null,null,null,null,null,null,null,null)
+B.a3O=new A.b1("Save",null,B.mZ,null,null,null,null,null,null,null,null)
 B.a3Q=new A.b1("Are you sure you want to delete this record?",null,null,null,null,null,null,null,null,null,null)
 B.a3R=new A.b1("",null,null,null,null,null,null,null,null,null,null)
 B.a06=new A.k(!0,B.ar,null,null,null,null,28,B.V,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -101151,8 +101153,6 @@ B.a44=new A.b1("Are you sure you want to logout?",null,null,null,null,null,null,
 B.a46=new A.b1("Most Popular",null,B.mY,null,null,null,null,null,null,null,null)
 B.a2A=new A.k(!0,B.f,null,null,null,null,12,B.ae,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a47=new A.b1("About Mirabella",null,B.a2A,null,null,null,null,null,null,null,null)
-B.a26=new A.k(!0,B.kd,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Cr=new A.b1("\xa9 2025 Mirabella Estate Management Services. All rights reserved.",null,B.a26,null,null,null,null,null,null,null,null)
 B.a89=new A.aow(0,"system")
 B.SS=new A.j(0.056,0.024)
 B.T6=new A.j(0.108,0.3085)
@@ -101668,7 +101668,7 @@ return q})
 r($,"b8m","aRE",()=>A.dW().gWE()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
 r($,"b7M","aHl",()=>A.b_r(A.z6(A.z6(A.ka(),"window"),"FinalizationRegistry"),A.e4(new A.aBT())))
 r($,"b94","aHy",()=>new A.ah6())
-s($,"b7T","aRi",()=>A.aW0(B.OK))
+s($,"b7T","aRi",()=>A.aW0(B.OJ))
 s($,"b7S","aDv",()=>A.adi(A.aT1($.aRi())))
 s($,"b7F","aRd",()=>A.aLu(A.E(A.av(),"ParagraphBuilder")))
 s($,"b9c","aS5",()=>{var q=t.N,p=A.aj("+breaks,graphemes,words(xs,xs,xs)"),o=A.aEX(1e5,q,p),n=A.aEX(1e4,q,p)

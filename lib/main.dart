@@ -37,7 +37,7 @@ class MirabellaEstateApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Mirabella Estate Management Services',
+      title: 'MEMS',
       theme: base.copyWith(
         scaffoldBackgroundColor: AppColors.slate50,
         appBarTheme: const AppBarTheme(

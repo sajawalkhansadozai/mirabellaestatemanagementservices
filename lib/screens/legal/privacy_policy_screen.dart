@@ -40,7 +40,7 @@ class PrivacyPolicyPage extends StatelessWidget {
                         ),
                         const SizedBox(height: 8),
                         const Text(
-                          'How Mirabella Estate Management Services collects, uses, and protects your information.',
+                          'How MEMS collects, uses, and protects your information.',
                           style: TextStyle(color: Colors.white70, fontSize: 16),
                         ),
                         const SizedBox(height: 8),
@@ -69,7 +69,7 @@ class PrivacyPolicyPage extends StatelessWidget {
                         Section(
                           title: 'Introduction',
                           body:
-                              'This Privacy Policy explains how Mirabella Estate Management Services ("Mirabella", "we", "us", or "our") handles personal information when you visit our website, contact us, or use our property management services in Islamabad and surrounding areas.',
+                              'This Privacy Policy explains how MEMS ("Mirabella", "we", "us", or "our") handles personal information when you visit our website, contact us, or use our property management services in Islamabad and surrounding areas.',
                         ),
                         Section(
                           title: 'Information We Collect',

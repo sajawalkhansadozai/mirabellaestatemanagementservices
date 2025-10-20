@@ -161,7 +161,7 @@ class SiteFooter extends StatelessWidget {
                   );
 
                   final copy = const Text(
-                    '© 2025 Mirabella Estate Management Services. All rights reserved.',
+                    '© 2025 MEMS. All rights reserved.',
                     style: TextStyle(color: Color(0xFFA0AEC0), fontSize: 12),
                   );
 

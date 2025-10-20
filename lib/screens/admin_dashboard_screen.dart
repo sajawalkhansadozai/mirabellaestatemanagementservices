@@ -2,15 +2,13 @@
 // File: lib/screens/admin/admin_dashboard_screen.dart
 // Professional Admin Dashboard with Universal Search (Overflow-safe AppBar)
 // ===============================
+// ignore_for_file: deprecated_member_use, avoid_web_libraries_in_flutter
 import 'dart:convert';
-// ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
-
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-
 import '../../constants/tokens.dart';
 import 'admin_login_screen.dart';
 

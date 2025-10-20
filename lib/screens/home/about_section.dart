@@ -91,7 +91,7 @@ class AboutSection extends StatelessWidget {
 
                         // Paragraphs
                         Text(
-                          'Established in 2015, Mirabella Estate Management Services has grown to become Islamabad\'s most trusted property management company. With over a decade of experience, we\'ve successfully managed hundreds of properties and served thousands of satisfied clients.',
+                          'Established in 2015, MEMS has grown to become Islamabad\'s most trusted property management company. With over a decade of experience, we\'ve successfully managed hundreds of properties and served thousands of satisfied clients.',
                           textScaler: textScaler,
                           style: TextStyle(
                             color: const Color(0xFF9CA3AF), // gray-400
